@@ -17,6 +17,8 @@ cabbre ss suspend
 cabbre vimrc edit ~/github.com/xiote/vim/.vimrc
 cabbre mainvim edit ~/github.com/xiote/myvim/plugin/main.vim
 cabbre mvim edit ~/github.com/xiote/myvim/plugin/main.vim
+cabbre gitvim edit ~/github.com/xiote/myvim/plugin/git.vim
+cabbre gvim edit ~/github.com/xiote/myvim/plugin/git.vim
 
 cabbre pu PlugUpdate
 
