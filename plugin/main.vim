@@ -1,5 +1,7 @@
 syntax on
 
+set nocompatible
+
 nnoremap o o<Esc>
 nnoremap O O<Esc>
 
