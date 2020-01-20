@@ -1,6 +1,4 @@
 syntax on
-nocompatible
-
 
 nnoremap o o<Esc>
 nnoremap O O<Esc>
