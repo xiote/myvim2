@@ -24,3 +24,7 @@ cabbre pu PlugUpdate
 
 set autochdir
 
+function! ClearScreen()
+    silent !clear
+    redraw!
+endfunction

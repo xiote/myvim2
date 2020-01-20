@@ -73,10 +73,6 @@ cabbre gu Git pull
 cabbre gp Git push
 cabbre gs Git status
 
-function! ClearScreen()
-    silent !clear
-    redraw!
-endfunction
 
 command! -nargs=* GitCheckout :call GitCheckout(<f-args>)
 command! -nargs=* GitCheckoutB :call GitCheckoutB(<f-args>)
