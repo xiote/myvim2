@@ -17,6 +17,7 @@ cabbre ne bn
 cabbre pr bp
 
 cabbre vimrc edit ~/github.com/xiote/vim/.vimrc
+cabbre myvim edit ~/github.com/xiote/myvim/plugin/.vim
 cabbre mainvim edit ~/github.com/xiote/myvim/plugin/main.vim
 cabbre mvim edit ~/github.com/xiote/myvim/plugin/main.vim
 cabbre mv edit ~/github.com/xiote/myvim/plugin/main.vim
