@@ -26,6 +26,8 @@ cabbre mv edit ~/github.com/xiote/myvim/plugin/main.vim
 cabbre gitvim edit ~/github.com/xiote/myvim/plugin/git.vim
 cabbre gvim edit ~/github.com/xiote/myvim/plugin/git.vim
 cabbre gv edit ~/github.com/xiote/myvim/plugin/git.vim
+cabbre ultisnipsvim edit ~/github.com/xiote/myvim/plugin/ultisnips.vim
+cabbre usnipvim edit ~/github.com/xiote/myvim/plugin/ultisnips.vim
 
 cabbre pu PlugUpdate
 
