@@ -28,6 +28,7 @@ cabbre gvim edit ~/github.com/xiote/myvim/plugin/git.vim
 cabbre gv edit ~/github.com/xiote/myvim/plugin/git.vim
 cabbre ultisnipsvim edit ~/github.com/xiote/myvim/plugin/ultisnips.vim
 cabbre usnipvim edit ~/github.com/xiote/myvim/plugin/ultisnips.vim
+cabbre vimwk edit ~/github.com/xiote/wiki/vim/index.md
 
 cabbre pu PlugUpdate
 
