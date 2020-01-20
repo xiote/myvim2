@@ -13,6 +13,8 @@ cabbre cpkara !cp % ~/.config/karabiner/karabiner.json
 cabbre del bdelete
 cabbre some source %
 cabbre ss suspend
+cabbre ne bn
+cabbre pr bp
 
 cabbre vimrc edit ~/github.com/xiote/vim/.vimrc
 cabbre mainvim edit ~/github.com/xiote/myvim/plugin/main.vim
@@ -25,6 +27,7 @@ cabbre gv edit ~/github.com/xiote/myvim/plugin/git.vim
 cabbre pu PlugUpdate
 
 set autochdir
+set autowrite
 
 function! ClearScreen()
     silent !clear
