@@ -6,4 +6,5 @@ let g:UltiSnipsJumpBackwardTrigger="<c-z>"
 " If you want :UltiSnipsEdit to split your window.
 let g:UltiSnipsEditSplit="vertical"
 
-let g:UltiSnipsSnippetDirectories = ['UltiSnips','UltiSnips2']
+let g:UltiSnipsSnippetDirectories += ["snippets/UltiSnips"]
+"let g:UltiSnipsSnippetDirectories = ['UltiSnips','UltiSnips2']
