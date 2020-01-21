@@ -19,6 +19,8 @@ cabbre ne bn
 cabbre pr bp
 
 cabbre vimrc edit ~/github.com/xiote/vim/.vimrc
+cabbre vimwk edit ~/github.com/xiote/wiki/vim/index.md
+
 cabbre mainvim edit ~/github.com/xiote/myvim/plugin/main.vim
 cabbre mvim edit ~/github.com/xiote/myvim/plugin/main.vim
 cabbre mv edit ~/github.com/xiote/myvim/plugin/main.vim
@@ -27,12 +29,11 @@ cabbre gvim edit ~/github.com/xiote/myvim/plugin/git.vim
 cabbre gv edit ~/github.com/xiote/myvim/plugin/git.vim
 cabbre ultisnipsvim edit ~/github.com/xiote/myvim/plugin/ultisnips.vim
 cabbre usnipvim edit ~/github.com/xiote/myvim/plugin/ultisnips.vim
-cabbre vimwk edit ~/github.com/xiote/wiki/vim/index.md
 cabbre ultisnipsvim edit ~/github.com/xiote/myvim/plugin/ultisnips.vim
 cabbre syntasticvim edit ~/github.com/xiote/myvim/plugin/syntastic.vim
 cabbre synvim edit ~/github.com/xiote/myvim/plugin/syntastic.vim
 cabbre myvim edit ~/github.com/xiote/myvim/plugin/
-cabbre mdvim edit ~/github.com/xiote/myvim/plugin/mdvim.vim
+cabbre linkmdvim edit ~/github.com/xiote/myvim/plugin/linkmd.vim
 
 cabbre pu PlugUpdate
 
