@@ -7,5 +7,5 @@ let g:UltiSnipsJumpBackwardTrigger="<c-z>"
 let g:UltiSnipsEditSplit="vertical"
 
 " let g:UltiSnipsSnippetDirectories = ['~/.vim/UltiSnips']
-let g:UltiSnipsSnippetDirectories = ['UltiSnips']
+"let g:UltiSnipsSnippetDirectories = ['UltiSnips']
 "let g:UltiSnipsSnippetDirectories = ['UltiSnips',$HOME.'/.vim/plugged/myvim/snippets/UltiSnips']
