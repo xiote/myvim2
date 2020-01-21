@@ -7,7 +7,7 @@ let g:UltiSnipsJumpBackwardTrigger="<c-z>"
 let g:UltiSnipsEditSplit="vertical"
 
 if !exists("g:UltiSnipsSnippetDirectories")
-    let g:UltiSnipsSnippetDirectories = ["UltiSnips","snippets/UltiSnips"]
+    let g:UltiSnipsSnippetDirectories = ["vim-snippets/UltiSnips","snippets/UltiSnips"]
 else
     let g:UltiSnipsSnippetDirectories += ["snippets/UltiSnips"]
 endif
