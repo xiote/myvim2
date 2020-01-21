@@ -3,15 +3,23 @@
 priority -10
 
 snippet pa 
-package ${0}
+package ${1}
+${0}
 endsnippet
 
 snippet s
 string
 endsnippet
 
-snippet im
-import "${0}"
+snippet imp
+import "${1}"
+${0}
+endsnippet
+
+snippet f1
+func ${1}(${2} ${3}){
+    ${0:${VISUAL}}
+}
 endsnippet
 
 # shorthand variable declaration
