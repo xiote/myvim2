@@ -426,9 +426,9 @@ func Test${1:Function}(t *testing.T) {
         {"${2}", "${3}"},
     }
     for _, c := range cases {
-        got := ${1:Function}(c.in)
+        got := $1(c.in)
         if got != c.want {
-        t.Errorf("${1:Function}(%q) == %q, want %q", c.in, got, c.want)
+        t.Errorf("$1(%q) == %q, want %q", c.in, got, c.want)
         }
     }
 }
