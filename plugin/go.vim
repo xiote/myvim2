@@ -18,6 +18,6 @@ function! Import()
     call inputsave()
     let name = input('')
     call inputrestore()
-    execute "normal! iimport """. name. """\n"
+    execute "normal! iimport \"". name. "\"\n"
 endfunction
 
