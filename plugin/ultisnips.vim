@@ -7,7 +7,7 @@ let g:UltiSnipsJumpBackwardTrigger="<c-z>"
 let g:UltiSnipsEditSplit="vertical"
 
 if !exists("g:UltiSnipsSnippetDirectories")
-    let g:UltiSnipsSnippetDirectories = ["snippets/UltiSnips"]
+    let g:UltiSnipsSnippetDirectories = ["UltiSnips","snippets/UltiSnips"]
 else
     let g:UltiSnipsSnippetDirectories += ["snippets/UltiSnips"]
 endif
