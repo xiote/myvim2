@@ -1,6 +1,6 @@
 " Trigger configuration. Do not use <tab> if you use https://github.com/Valloric/YouCompleteMe.
 let g:UltiSnipsExpandTrigger="<Space>"
-let g:UltiSnipsJumpForwardTrigger="<tab>"
+let g:UltiSnipsJumpForwardTrigger="<Space>"
 let g:UltiSnipsJumpBackwardTrigger="<S-tab>"
 
 " If you want :UltiSnipsEdit to split your window.
