@@ -12,6 +12,7 @@ iabbre c cabbre
 
 cabbre cp !cp % 
 cabbre cpkara !cp % ~/.config/karabiner/karabiner.json
+cabbre cpgosn !cp %  ~/github.com/xiote/myvim/snippets/UltiSnips/go.snippets
 cabbre del bdelete
 cabbre some source %
 cabbre ss suspend
