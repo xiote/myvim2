@@ -25,5 +25,5 @@ endfunction
 cabbre pf Printf
 command! -nargs=* Printf :call Printf(<f-args>)
 function! Printf()
-    execute "normal! ifmt.Printf()<Right>"
+    execute "normal! ifmt.Printf()\<Right>"
 endfunction
