@@ -21,3 +21,9 @@ command! -nargs=* FunctionMain :call FunctionMain(<f-args>)
 function! FunctionMain()
     execute "normal! ifunc main() {\<CR>\<CR>}\<UP>\<TAB>"
 endfunction
+
+cabbre pf Printf
+command! -nargs=* Printf :call Printf(<f-args>)
+function! Printf()
+    execute "normal! ifmt.Printf()<Right>"
+endfunction
