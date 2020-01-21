@@ -39,6 +39,7 @@ cabbre synvim edit ~/github.com/xiote/myvim/plugin/syntastic.vim
 cabbre myvim edit ~/github.com/xiote/myvim/plugin/
 cabbre linkmdvim edit ~/github.com/xiote/myvim/plugin/linkmd.vim
 cabbre gosnpt edit ~/github.com/xiote/myvim/snippets/UltiSnips/go.snippets
+cabbre govim edit ~/github.com/xiote/myvim/plugin/go.vim
 
 cabbre pu PlugUpdate
 
