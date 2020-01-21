@@ -12,7 +12,8 @@ iabbre c cabbre
 
 cabbre cp !cp % 
 cabbre cpkara !cp % ~/.config/karabiner/karabiner.json
-cabbre cpgosn !cp % ~/.vim/plugged/myvim/snippets/UltiSnips/go.snippets
+cabbre cpgosnpt !cp % ~/.vim/plugged/myvim/snippets/UltiSnips/go.snippets
+cabbre cpsnpt !cp % ~/.vim/plugged/myvim/snippets/UltiSnips/go.snippets
 cabbre del bdelete
 cabbre some source %
 cabbre ss suspend
@@ -34,7 +35,7 @@ cabbre syntasticvim edit ~/github.com/xiote/myvim/plugin/syntastic.vim
 cabbre synvim edit ~/github.com/xiote/myvim/plugin/syntastic.vim
 cabbre myvim edit ~/github.com/xiote/myvim/plugin/
 cabbre linkmdvim edit ~/github.com/xiote/myvim/plugin/linkmd.vim
-cabbre gosnip edit ~/github.com/xiote/myvim/snippets/UltiSnips/go.snippets
+cabbre gosnpt edit ~/github.com/xiote/myvim/snippets/UltiSnips/go.snippets
 
 cabbre pu PlugUpdate
 
