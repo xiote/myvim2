@@ -19,5 +19,5 @@ endfunction
 cabbre fm FunctionMain
 command! -nargs=* FunctionMain :call FunctionMain(<f-args>)
 function! FunctionMain()
-    execute "normal! ifunc main() {\n\t\n}"
+    execute "normal! ifunc main() {\<CR>\<TAB>\<CR>}\<ESC>k"
 endfunction
