@@ -1,4 +1,4 @@
-"syntax on
+syntax off
 
 set nocompatible
 
