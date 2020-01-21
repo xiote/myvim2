@@ -28,8 +28,7 @@ cabbre gitvim edit ~/github.com/xiote/myvim/plugin/git.vim
 cabbre gvim edit ~/github.com/xiote/myvim/plugin/git.vim
 cabbre gv edit ~/github.com/xiote/myvim/plugin/git.vim
 cabbre ultisnipsvim edit ~/github.com/xiote/myvim/plugin/ultisnips.vim
-cabbre usnipvim edit ~/github.com/xiote/myvim/plugin/ultisnips.vim
-cabbre ultisnipsvim edit ~/github.com/xiote/myvim/plugin/ultisnips.vim
+cabbre snvim edit ~/github.com/xiote/myvim/plugin/ultisnips.vim
 cabbre syntasticvim edit ~/github.com/xiote/myvim/plugin/syntastic.vim
 cabbre synvim edit ~/github.com/xiote/myvim/plugin/syntastic.vim
 cabbre myvim edit ~/github.com/xiote/myvim/plugin/
