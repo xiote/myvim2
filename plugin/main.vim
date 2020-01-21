@@ -38,6 +38,11 @@ cabbre pu PlugUpdate
 set autochdir
 set autowrite
 
+" 탭설정
+set expandtab
+set shiftwidth=4 
+set softtabstop=4 
+
 function! ClearScreen()
     silent !clear
     redraw!
