@@ -19,5 +19,6 @@ endfunction
 cabbre fm FunctionMain
 command! -nargs=* FunctionMain :call FunctionMain(<f-args>)
 function! FunctionMain()
+    execute "set expandtab shiftwidth=4 softtabstop=4"
     execute "normal! ifunc main() {\<CR>\<TAB>\<CR>}\<ESC>k"
 endfunction
