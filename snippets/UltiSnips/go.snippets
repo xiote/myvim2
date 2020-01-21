@@ -2,6 +2,18 @@
 
 priority -10
 
+snippet pa 
+package ${0}
+endsnippet
+
+snippet s
+string
+endsnippet
+
+snippet im
+import "${0}"
+endsnippet
+
 # shorthand variable declaration
 snippet : "v := value"
 ${1} := ${0}
@@ -115,12 +127,6 @@ snippet gpl
 ${0}
 endsnippet
 
-# import
-snippet import "import ( ... )"
-import (
-	"${1:package}"
-)
-endsnippet
 
 # full interface snippet
 snippet interface "interface I { ... }"
@@ -351,13 +357,6 @@ snippet ok "if !ok { ... }"
 if !ok {
 	${0:${VISUAL}}
 }
-endsnippet
-
-# package
-snippet package "package ..."
-// Package $1 provides ${2:...}
-package ${1:main}
-${0}
 endsnippet
 
 # panic
