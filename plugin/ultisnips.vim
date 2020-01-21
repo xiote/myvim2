@@ -11,4 +11,3 @@ if !exists("g:UltiSnipsSnippetDirectories")
 else
     let g:UltiSnipsSnippetDirectories += ["snippets/UltiSnips"]
 endif
-"let g:UltiSnipsSnippetDirectories = ['UltiSnips','UltiSnips2']
