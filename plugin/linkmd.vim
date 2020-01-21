@@ -10,6 +10,5 @@ function! LinkMarkdown()
     let title = system("wget --quiet -O - " . url . " | sed -n -e 's!.*<title>\\(.*\\)</title>.*!\\1!p'")
     let title = substitute(title,"\n",'','g')
     let link = "[" . title . "](" . url . ")"
-    echom link
-    execute "normal! a" link
+    execute "normal! i". link
 endfunction
