@@ -4,6 +4,7 @@ set nocompatible
 
 nnoremap o o<Esc>
 nnoremap O O<Esc>
+inoremap <S-C-m> <C-o>$<CR>
 
 autocmd InsertEnter * set nocul
 autocmd InsertLeave * set cul
