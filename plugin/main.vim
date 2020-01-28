@@ -2,7 +2,6 @@ syntax off
 
 set nocompatible
 filetype plugin on
-runtime macros/matchit.vim
 
 nnoremap o o<Esc>
 nnoremap O O<Esc>
