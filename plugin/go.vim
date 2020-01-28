@@ -1,4 +1,5 @@
 cabbre gt GoTest
+cabbre gi GoInstall
 
 cabbre pk Package
 command! -nargs=* Package :call Package(<f-args>)
