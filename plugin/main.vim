@@ -11,8 +11,8 @@ autocmd InsertEnter * set nocul
 autocmd InsertLeave * set cul
 
 
-iabbre c cabbre
-cabbre r resolve
+iabbre ca cabbre
+cabbre re resolve
 
 cabbre cp !cp % 
 cabbre cpkara !cp % ~/.config/karabiner/karabiner.json
