@@ -11,7 +11,6 @@ inoremap jj <ESC>
 autocmd InsertEnter * set nocul
 autocmd InsertLeave * set cul
 
-
 iabbre ca cabbre
 cabbre re resolve
 
