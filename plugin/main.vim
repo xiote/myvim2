@@ -6,6 +6,7 @@ filetype plugin on
 nnoremap o o<Esc>
 nnoremap O O<Esc>
 inoremap <F2> <Esc>ciW"<Esc>pa"
+inoremap jj <ESC>
 
 autocmd InsertEnter * set nocul
 autocmd InsertLeave * set cul
