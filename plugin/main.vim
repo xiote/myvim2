@@ -6,12 +6,14 @@ filetype plugin on
 nnoremap o o<Esc>
 nnoremap O O<Esc>
 inoremap <F2> <Esc>ciW"<Esc>pa"
-inoremap jj <ESC>
+"inoremap jj <ESC>
 
 autocmd InsertEnter * set nocul
 autocmd InsertLeave * set cul
 
 iabbre ca cabbre
+iabbre eq =
+iabbre ass :=
 cabbre re resolve
 
 cabbre cp !cp % 
