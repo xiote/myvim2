@@ -12,9 +12,19 @@ autocmd InsertEnter * set nocul
 autocmd InsertLeave * set cul
 
 iabbre ca cabbre
-iabbre eq =
-iabbre ass :=
 cabbre re resolve
+
+iabbre bq !=
+iabbre nq !=
+iabbre qq ==
+iabbre eq ==
+iabbre q =
+iabbre ss =
+iabbre cq :=
+iabbre cp :=
+iabbre gt >
+iabbre lt <
+
 
 cabbre cp !cp % 
 cabbre cpkara !cp % ~/.config/karabiner/karabiner.json
