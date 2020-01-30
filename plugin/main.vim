@@ -10,6 +10,7 @@ inoremap <C-b> <Down>
 inoremap <C-z> <Up>
 inoremap <C-j> <Esc>o
 inoremap <C-l> <Esc>A
+inoremap <C-o> <Esc>
 "inoremap jj <ESC>
 
 autocmd InsertEnter * set nocul
