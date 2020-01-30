@@ -8,6 +8,7 @@ nnoremap O O<Esc>
 inoremap <F2> <Esc>ciW"<Esc>pa"
 inoremap <C-b> <Down>
 inoremap <C-z> <Up>
+inoremap <C-j> <Esc>o
 "inoremap jj <ESC>
 
 autocmd InsertEnter * set nocul
