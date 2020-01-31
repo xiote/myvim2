@@ -3,8 +3,12 @@ syntax off
 set nocompatible
 filetype plugin on
 
-nnoremap o o<Esc>
-nnoremap O O<Esc>
+"nmap {ab :ls<CR>
+"imap {ab <C-o>{ab
+
+                " .go 파일 저장시, gofmt를 위해서
+imap ww <C-o>:w<CR>
+
 inoremap <F2> <Esc>ciW"<Esc>pa"
 inoremap <C-b> <Down>
 inoremap <C-z> <Up>
