@@ -12,10 +12,10 @@ inoremap <C-j> <Esc>o
 inoremap <C-l> <Esc>A
 inoremap zz <ESC>zza
 "inoremap jj <ESC>
-inoremap () ()<Left>
-inoremap <> <><Left>
-inoremap [] []<Left>
-inoremap {} {}<Left>
+inoremap (( ()<Left>
+inoremap << <><Left>
+inoremap [[ []<Left>
+inoremap {{ {}<Left>
 inoremap "" ""<Left>
 inoremap '' ''<Left>
 inoremap `` ``<Left>
