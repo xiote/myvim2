@@ -10,9 +10,15 @@ inoremap <C-b> <Down>
 inoremap <C-z> <Up>
 inoremap <C-j> <Esc>o
 inoremap <C-l> <Esc>A
-inoremap <C-o> <Esc>
 inoremap zz <ESC>zza
 "inoremap jj <ESC>
+inoremap () ()<Left>
+inoremap <> <><Left>
+inoremap [] []<Left>
+inoremap {} {}<Left>
+inoremap "" ""<Left>
+inoremap '' ''<Left>
+inoremap `` ``<Left>
 
 autocmd InsertEnter * set nocul
 autocmd InsertLeave * set cul
