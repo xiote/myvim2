@@ -16,14 +16,6 @@ inoremap <C-z> <Up>
 inoremap <C-j> <Esc>o
 inoremap <C-l> <Esc>A
 
-inoremap (( ()<Left>
-inoremap << <><Left>
-inoremap [[ []<Left>
-inoremap {{ {}<Left>
-inoremap "" ""<Left>
-inoremap '' ''<Left>
-inoremap `` ``<Left>
-
 autocmd InsertEnter * set nocul
 autocmd InsertLeave * set cul
 
