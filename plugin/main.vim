@@ -3,21 +3,19 @@ syntax off
 set nocompatible
 filetype plugin on
 
+                " nmap은 쓰지 않는다. 콜론으로 명령모드 실행
 "nmap {ab :ls<CR>
-"imap {ab <C-o>{ab
-
-nmap ;gc :gc<CR>
 
                 " .go 파일 저장시, gofmt를 위해서
 imap ww <C-o>:w<CR>
+                " 편집화면을 중앙으로 이동
+imap zz <ESC>zza
 
-inoremap <F2> <Esc>ciW"<Esc>pa"
 inoremap <C-b> <Down>
 inoremap <C-z> <Up>
 inoremap <C-j> <Esc>o
 inoremap <C-l> <Esc>A
-inoremap zz <ESC>zza
-"inoremap jj <ESC>
+
 inoremap (( ()<Left>
 inoremap << <><Left>
 inoremap [[ []<Left>
