@@ -6,6 +6,8 @@ filetype plugin on
 "nmap {ab :ls<CR>
 "imap {ab <C-o>{ab
 
+nmap ;gc :gc<CR>
+
                 " .go 파일 저장시, gofmt를 위해서
 imap ww <C-o>:w<CR>
 
