@@ -63,14 +63,14 @@ cabbre govim edit ~/github.com/xiote/myvim/plugin/go.vim
 
 cabbre pu PlugUpdate
 
-set autochdir
+set autochdir           " 열린 파일에 맞춰서 자동으로 경로 변경 "
 set autowrite
-
-" 탭설정
+                        " 탭설정 "
 set expandtab
 set shiftwidth=4 
 set softtabstop=4 
 
+set nowrapscan          " 검색시, 키워드가 더이상없는 경우, 맨앞에서부터 검색되지 않도록 "
 function! ClearScreen()
     silent !clear
     redraw!
