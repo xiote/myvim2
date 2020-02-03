@@ -12,6 +12,7 @@ imap WW <C-o>:w<CR>
 imap ZZ <ESC>zza
                 " 라인의 가장 오른쪽으로
 imap LL <ESC>A
+inoremap <C-l> <Right>
 
 autocmd InsertEnter * set nocul
 autocmd InsertLeave * set cul
