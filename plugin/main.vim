@@ -80,4 +80,4 @@ function! ClearScreen()
 endfunction
 
                         " 매칭 스타일 지정
-hi MatchParen cterm=none ctermbg=none ctermfg=none
+"hi MatchParen cterm=none ctermbg=none ctermfg=none
