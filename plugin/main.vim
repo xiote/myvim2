@@ -11,10 +11,13 @@ imap ww <C-o>:w<CR>
                 " 편집화면을 중앙으로 이동
 imap zz <ESC>zza
 
-inoremap <C-b> <Down>
-inoremap <C-z> <Up>
-inoremap <C-j> <Esc>o
-inoremap <C-l> <Esc>A
+inoremap <C-j> <Esc>
+inoremap <C-n> <Down> 
+inoremap <C-p> <Up> 
+inoremap <C-h> <Left> 
+inoremap <S-C-h> <Esc>I
+inoremap <C-l> <Right> 
+inoremap <S-C-l> <Esc>A 
 
 autocmd InsertEnter * set nocul
 autocmd InsertLeave * set cul
