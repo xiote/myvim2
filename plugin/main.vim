@@ -12,8 +12,11 @@ imap WW <C-o>:w<CR>
 imap ZZ <ESC>zza
                 " 라인의 가장 오른쪽으로
 imap LL <ESC>A
+imap HH <ESC>I
+imap SS <ESC>S
+imap CC <ESC>C
 inoremap <C-l> <Right>
-imap <C-h> <C-o>h
+inoremap <C-h> <Left>
 inoremap <C-o> <Esc>
 
 autocmd InsertEnter * set nocul
@@ -63,6 +66,7 @@ cabbre myvim edit ~/github.com/xiote/myvim/plugin/
 cabbre linkmdvim edit ~/github.com/xiote/myvim/plugin/linkmd.vim
 cabbre gosnpt edit ~/github.com/xiote/myvim/snippets/UltiSnips/go.snippets
 cabbre govim edit ~/github.com/xiote/myvim/plugin/go.vim
+cabbre pairvim edit ~/github.com/xiote/myvim/plugin/auto-pairs.vim
 
 cabbre pu PlugUpdate
 
