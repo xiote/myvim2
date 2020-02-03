@@ -10,6 +10,8 @@ filetype plugin on
 imap WW <C-o>:w<CR>
                 " 편집화면을 중앙으로 이동
 imap ZZ <ESC>zza
+                " 라인의 가장 오른쪽으로
+imap LL <ESC>A
 
 autocmd InsertEnter * set nocul
 autocmd InsertLeave * set cul
