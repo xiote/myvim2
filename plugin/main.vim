@@ -15,7 +15,7 @@ inoremap <C-j> <Esc>
 inoremap <C-n> <Down> 
 inoremap <C-p> <Up> 
 inoremap <C-h> <Left> 
-inoremap <S-C-h> <Esc>I
+inoremap <C-l> <Right> 
 
 autocmd InsertEnter * set nocul
 autocmd InsertLeave * set cul
