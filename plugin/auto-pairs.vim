@@ -1,4 +1,4 @@
 let g:AutoPairs = {'(':')', '[':']', '{':'}',"'":"'",'"':'"', '```':'```', '"""':'"""', "'''":"'''", "`":"`"}
-let g:AutoPairsMapCR = 0
-inoremap <buffer> <silent> <C-m> <C-R>=AutoPairsReturn()<CR>
+let g:AutoPairsMapCR = 1
+inoremap <buffer> <silent> <LF> <C-R>=AutoPairsReturn()<CR>
 
