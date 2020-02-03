@@ -7,15 +7,14 @@ filetype plugin on
 "nmap {ab :ls<CR>
 
                 " .go 파일 저장시, gofmt를 위해서
-imap ww <C-o>:w<CR>
+imap WW <C-o>:w<CR>
                 " 편집화면을 중앙으로 이동
-imap zz <ESC>zza
+imap ZZ <ESC>zza
 
-inoremap <C-j> <Esc>
-inoremap <C-n> <Down> 
-inoremap <C-p> <Up> 
-inoremap <C-h> <Left> 
-inoremap <C-l> <Right> 
+inoremap <c-k> <up>
+inoremap <c-j> <down>
+inoremap <c-h> <left>
+inoremap <c-l> <right>
 
 autocmd InsertEnter * set nocul
 autocmd InsertLeave * set cul
