@@ -3,25 +3,51 @@ syntax on
 set nocompatible
 filetype plugin on
 
-                " nmap은 쓰지 않는다. 콜론으로 명령모드 실행
+                                            " backspace 제약 제거
+set backspace=indent,eol,start
+                                            " nmap은 쓰지 않는다. 콜론으로 명령모드 실행
 "nmap {ab :ls<CR>
 
-                " .go 파일 저장시, gofmt를 위해서
+" 입력모드
+                                            " 저장
 imap WW <C-o>:w<CR>
-                " 편집화면을 중앙으로 이동
+
+imap DD <ESC>ddi
+imap PP <ESC>pi
+imap YY <ESC>Yi
+imap OO <ESC>oi
+                                            " 편집화면을 중앙으로 이동
 imap ZZ <ESC>zza
-                " 라인의 가장 오른쪽으로
-imap LL <ESC>A
+
+
+
 imap HH <ESC>I
 imap SS <ESC>S
-imap CC <ESC>C
+imap CC <ESC>lC
+imap UU <ESC>ui
+imap RR <ESC>ui
+imap YY <ESC>Yi
+                                            " 라인의 가장 오른쪽으로
+imap LL <ESC>A
+
+nnoremap o o<Esc>
+nnoremap O O<Esc>
+
 inoremap <C-l> <Right>
 inoremap <C-h> <Left>
 inoremap <C-o> <Esc>
-"inoremap {      {}<Left>
 
 autocmd InsertEnter * set nocul
 autocmd InsertLeave * set cul
+
+set autochdir           " 열린 파일에 맞춰서 자동으로 경로 변경
+set autowrite
+                        " 탭설정
+set expandtab
+set shiftwidth=4 
+set softtabstop=4 
+
+set nowrapscan          " 검색시, 키워드가 더이상없는 경우, 맨앞에서부터 검색되지 않도록
 
 iabbre ca cabbre
 cabbre re resolve
@@ -46,7 +72,6 @@ cabbre kara edit ~/github.com/xiote/karabiner/karabiner.json
 cabbre del bdelete
 cabbre delb bdelete!
 cabbre some source %
-cabbre ss suspend
 cabbre ne bn
 cabbre pr bp
 
@@ -71,18 +96,7 @@ cabbre pairvim edit ~/github.com/xiote/myvim/plugin/auto-pairs.vim
 
 cabbre pu PlugUpdate
 
-set autochdir           " 열린 파일에 맞춰서 자동으로 경로 변경
-set autowrite
-                        " 탭설정
-set expandtab
-set shiftwidth=4 
-set softtabstop=4 
-
-set nowrapscan          " 검색시, 키워드가 더이상없는 경우, 맨앞에서부터 검색되지 않도록
 function! ClearScreen()
     silent !clear
     redraw!
 endfunction
-
-                        " 매칭 스타일 지정
-"hi MatchParen cterm=none ctermbg=none ctermfg=none
