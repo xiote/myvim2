@@ -18,7 +18,7 @@ imap CC <ESC>C
 inoremap <C-l> <Right>
 inoremap <C-h> <Left>
 inoremap <C-o> <Esc>
-inoremap {      {}<Left>
+"inoremap {      {}<Left>
 
 autocmd InsertEnter * set nocul
 autocmd InsertLeave * set cul
