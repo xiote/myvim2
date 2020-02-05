@@ -33,9 +33,6 @@ imap LL <ESC>A
 nnoremap o o<Esc>
 nnoremap O O<Esc>
 
-inoremap <C-l> <Right>
-inoremap <C-h> <Left>
-inoremap <C-o> <Esc>
 
 autocmd InsertEnter * set nocul
 autocmd InsertLeave * set cul
