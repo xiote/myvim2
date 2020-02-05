@@ -19,7 +19,7 @@ imap OO <ESC>oi
                                             " 편집화면을 중앙으로 이동
 imap ZZ <ESC>zza
 
-
+imap JJ <Esc>yss"A
 
 imap HH <ESC>I
 imap SS <ESC>S
@@ -59,6 +59,8 @@ iabbre cq :=
 iabbre cp :=
 iabbre gt >
 iabbre lt <
+
+    
 
 
 cabbre cp !cp % 
