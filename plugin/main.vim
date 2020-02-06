@@ -33,6 +33,9 @@ imap LL <ESC>A
 nnoremap o o<Esc>
 nnoremap O O<Esc>
 
+                                            " option+c to colon
+nmap ç :
+imap ç <C-o>ç
 
 autocmd InsertEnter * set nocul
 autocmd InsertLeave * set cul
