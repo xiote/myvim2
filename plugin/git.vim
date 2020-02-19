@@ -11,6 +11,8 @@ cabbre wc w <BAR> call ClearScreen() <BAR> silent Git add % <BAR> Git commit -a 
 
 cabbre gp Git push
 
+cabbre gitcheckoutme Git checkout -- %
+
 cabbre gitbranchd GitBranchD
 cabbre deletebranch GitBranchD
 cabbre db GitBranchD
