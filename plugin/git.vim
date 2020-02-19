@@ -17,6 +17,7 @@ cabbre gca GitCommitAmend
 
 cabbre wc w <BAR> call ClearScreen() <BAR> silent Git add % <BAR> Git commit -a -m %
 
+cabbre gitpush Git push
 cabbre gp Git push
 
 cabbre gitcheckoutme Git checkout -- %
