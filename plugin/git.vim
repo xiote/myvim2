@@ -1,11 +1,20 @@
 cabbre git Git
 
-cabbre ga Git add %
+cabbre gitreset Git reset
 
+cabbre gitadd Git add
+
+cabbre gitaddme Git add %
+cabbre game Git add %
+
+cabbre gitcommit Git commit
+cabbre gitcommitall Git commit -a
 cabbre gc Git commit -a -m %
-cabbre gcm Git commit -a 
-"cabbre gcam Git commit -a --amend
 cabbre gca GitCommitAmend 
+
+
+cabbre gcme <BAR>Git reset<BAR>Git add %<BAR>Git commit -m %
+
 
 cabbre wc w <BAR> call ClearScreen() <BAR> silent Git add % <BAR> Git commit -a -m %
 
