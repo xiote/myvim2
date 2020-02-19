@@ -9,11 +9,10 @@ cabbre game Git add %
 
 cabbre gitcommit Git commit
 cabbre gitcommitall Git commit -a
-cabbre gc Git commit -a -m %
-cabbre gca GitCommitAmend 
-
 
 cabbre gcme <BAR>Git reset<BAR>Git add %<BAR>Git commit -m %
+cabbre gc <BAR>Git reset<BAR>Git add %<BAR>Git commit -m %
+cabbre gca GitCommitAmend 
 
 
 cabbre wc w <BAR> call ClearScreen() <BAR> silent Git add % <BAR> Git commit -a -m %
@@ -115,5 +114,5 @@ function! GitCommitAmend()
     call inputsave()
     let message = input('')
     call inputrestore()
-    execute 'Git commit -a --amend -m"' message '"'
+    execute 'Git commit --amend -m"' message '"'
 endfunction
