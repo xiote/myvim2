@@ -52,19 +52,6 @@ set nowrapscan          " 검색시, 키워드가 더이상없는 경우, 맨앞
 iabbre ca cabbre
 cabbre re resolve
 
-iabbre bq !=
-iabbre nq !=
-iabbre qq ==
-iabbre eq ==
-iabbre q =
-iabbre ss =
-iabbre cq :=
-iabbre cp :=
-iabbre gt >
-iabbre lt <
-
-    
-
 
 cabbre cp !cp % 
 cabbre cpkara !cp % ~/.config/karabiner/karabiner.json
