@@ -4,7 +4,6 @@ set nocompatible
 filetype plugin on
                                             " 편집모드에서 <C-p> to ESC
 imap <C-p> <ESC>
-
                                             " backspace 제약 제거
 set backspace=indent,eol,start
                                             " nmap은 쓰지 않는다. 콜론으로 명령모드 실행
@@ -55,6 +54,7 @@ iabbre ca cabbre
 cabbre re resolve
 
 
+cabbre sshconfig edit ~/.ssh/config
 cabbre cp !cp % 
 cabbre cpkara !cp % ~/.config/karabiner/karabiner.json
 cabbre cpgosnpt !cp % ~/.vim/plugged/myvim/snippets/UltiSnips/go.snippets
