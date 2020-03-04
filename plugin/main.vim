@@ -2,6 +2,8 @@ syntax on
 
 set nocompatible
 filetype plugin on
+                                            " 편집모드에서 <C-p> to ESC
+imap <C-p> <ESC>
 
                                             " backspace 제약 제거
 set backspace=indent,eol,start
