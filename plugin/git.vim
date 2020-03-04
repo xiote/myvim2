@@ -1,24 +1,35 @@
+cabbre gitcheckoutcurrentfile Git checkout -- %
+cabbre restoreme Git checkout -- %
+cabbre rsme Git checkout -- %
+
+cabbre gitlsfiles Git ls-files --stage
+cabbre gls Git ls-files --stage
+
 cabbre git Git
+
+cabbre gitstatus Git status
+cabbre gs Git status
 
 cabbre gitreset Git reset
 
 cabbre gitadd Git add
-
 cabbre gitaddme Git add %
 cabbre game Git add %
+    cabbre ga Git add %
 
 cabbre gitcommit Git commit
 cabbre gitcommitall Git commit -a
-
+cabbre gitcommitme <BAR>Git reset<BAR>Git add %<BAR>Git commit -m %
 cabbre gcme <BAR>Git reset<BAR>Git add %<BAR>Git commit -m %
-cabbre gc <BAR>Git reset<BAR>Git add %<BAR>Git commit -m %
+    cabbre gc <BAR>Git reset<BAR>Git add %<BAR>Git commit -m %
+cabbre gitcommitamend GitCommitAmend 
 cabbre gca GitCommitAmend 
-
-
-cabbre wc w <BAR> call ClearScreen() <BAR> silent Git add % <BAR> Git commit -a -m %
 
 cabbre gitpush Git push
 cabbre gp Git push
+
+cabbre gitpull Git pull
+cabbre gu Git pull
 
 cabbre gitcheckoutme Git checkout -- %
 
@@ -60,12 +71,6 @@ cabbre makenewbranch Git checkout -B new
 cabbre mknbr Git checkout -B new
 cabbre mknb Git checkout -B new
 
-cabbre gitcheckoutcurrentfile Git checkout -- %
-cabbre restoreme Git checkout -- %
-cabbre rsme Git checkout -- %
-
-cabbre gitlsfiles Git ls-files --stage
-cabbre gls Git ls-files --stage
 
 cabbre gitbranch Git branch
 cabbre listbranch Git branch
@@ -80,10 +85,6 @@ cabbre gpu Git push --set-upstream origin
 cabbre gpun Git push --set-upstream origin new
 cabbre gd Git diff
 cabbre gl Git log
-cabbre gu Git pull
-cabbre gp Git push
-cabbre gs Git status
-
 
 command! -nargs=* GitCheckout :call GitCheckout(<f-args>)
 command! -nargs=* GitCheckoutB :call GitCheckoutB(<f-args>)

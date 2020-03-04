@@ -54,19 +54,6 @@ set nowrapscan          " 검색시, 키워드가 더이상없는 경우, 맨앞
 iabbre ca cabbre
 cabbre re resolve
 
-iabbre bq !=
-iabbre nq !=
-iabbre qq ==
-iabbre eq ==
-iabbre q =
-iabbre ss =
-iabbre cq :=
-iabbre cp :=
-iabbre gt >
-iabbre lt <
-
-    
-
 
 cabbre cp !cp % 
 cabbre cpkara !cp % ~/.config/karabiner/karabiner.json
@@ -82,6 +69,7 @@ cabbre pr bp
 cabbre vimwk edit ~/github.com/xiote/wiki/vim/index.md
 cabbre zshrc edit ~/github.com/xiote/zsh/.zshrc
 
+cabbre ansiblevim edit ~/github.com/xiote/myvim/plugin/ansible.vim
 cabbre mainvim edit ~/github.com/xiote/myvim/plugin/main.vim
 cabbre mvim edit ~/github.com/xiote/myvim/plugin/main.vim
 cabbre mv edit ~/github.com/xiote/myvim/plugin/main.vim
