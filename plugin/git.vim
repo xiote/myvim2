@@ -1,5 +1,6 @@
+cabbre gch Git checkout
+
 cabbre gitcheckoutme Git checkout -- %
-cabbre gcome Git checkout -- %
 
 cabbre gitlsfiles Git ls-files --stage
 cabbre gls Git ls-files --stage
