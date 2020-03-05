@@ -38,6 +38,7 @@ nnoremap O O<Esc>
 nmap ç :
 imap ç <C-o>ç
 
+set cul
 autocmd InsertEnter * set nocul
 autocmd InsertLeave * set cul
 
