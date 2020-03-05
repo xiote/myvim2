@@ -1,6 +1,5 @@
-cabbre gch Git checkout
-
-cabbre gitcheckoutme Git checkout -- %
+cabbre gitcheckout Git checkout
+    cabbre gch Git checkout -- %
 
 cabbre gitlsfiles Git ls-files --stage
 cabbre gls Git ls-files --stage
@@ -13,8 +12,6 @@ cabbre gs Git status
 cabbre gitreset Git reset
 
 cabbre gitadd Git add
-cabbre gitaddme Git add %
-cabbre game Git add %
     cabbre ga Git add %
 
 cabbre gitcommit Git commit
@@ -31,7 +28,6 @@ cabbre gp Git push
 cabbre gitpull Git pull
 cabbre gu Git pull
 
-cabbre gitcheckoutme Git checkout -- %
 
 cabbre gitbranchd GitBranchD
 cabbre deletebranch GitBranchD
