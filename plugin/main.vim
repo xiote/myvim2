@@ -69,6 +69,7 @@ cabbre pr bp
 cabbre vimwk edit ~/github.com/xiote/wiki/vim/index.md
 cabbre zshrc edit ~/github.com/xiote/zsh/.zshrc
 
+cabbre pythonvim edit ~/github.com/xiote/myvim/plugin/python.vim
 cabbre ansiblevim edit ~/github.com/xiote/myvim/plugin/ansible.vim
 cabbre mainvim edit ~/github.com/xiote/myvim/plugin/main.vim
 cabbre mvim edit ~/github.com/xiote/myvim/plugin/main.vim
