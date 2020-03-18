@@ -59,6 +59,7 @@ cabbre re resolve
 cabbre sshconfig edit ~/.ssh/config
 cabbre cp !cp % 
 cabbre cpkara !cp % ~/.config/karabiner/karabiner.json
+cabbre cpk !cp % ~/.config/karabiner/karabiner.json
 cabbre cpgosnpt !cp % ~/.vim/plugged/myvim/snippets/UltiSnips/go.snippets
 cabbre cpsnpt !cp % ~/.vim/plugged/myvim/snippets/UltiSnips/go.snippets
 cabbre kara edit ~/github.com/xiote/karabiner/karabiner.json
