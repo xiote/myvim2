@@ -11,25 +11,25 @@ set backspace=indent,eol,start
 
 " 입력모드
                                             " 저장
-imap WW <C-o>:w<CR>
-
-imap DD <ESC>ddi
-imap PP <ESC>pi
-imap YY <ESC>Yi
-imap OO <ESC>oi
-                                            " 편집화면을 중앙으로 이동
-imap ZZ <ESC>zza
-
-imap JJ <Esc>yss"A
-
-imap HH <ESC>I
-imap SS <ESC>S
-imap CC <ESC>lC
-imap UU <ESC>ui
-imap RR <ESC>ui
-imap YY <ESC>Yi
-                                            " 라인의 가장 오른쪽으로
-imap LL <ESC>A
+"imap WW <C-o>:w<CR>
+"
+"imap DD <ESC>ddi
+"imap PP <ESC>pi
+"imap YY <ESC>Yi
+"imap OO <ESC>oi
+"                                            " 편집화면을 중앙으로 이동
+"imap ZZ <ESC>zza
+"
+"imap JJ <Esc>yss"A
+"
+"imap HH <ESC>I
+"imap SS <ESC>S
+"imap CC <ESC>lC
+"imap UU <ESC>ui
+"imap RR <ESC>ui
+"imap YY <ESC>Yi
+"                                            " 라인의 가장 오른쪽으로
+"imap LL <ESC>A
 
 nnoremap o o<Esc>
 nnoremap O O<Esc>
