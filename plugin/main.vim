@@ -55,7 +55,7 @@ cabbre qq q!
 
 cabbre re resolve
 
-cabbre nrd NERDTreeToggle
+cabbre nd NERDTreeToggle
 
 cabbre sshconfig edit ~/.ssh/config
 cabbre cp !cp % 
