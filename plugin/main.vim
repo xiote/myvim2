@@ -55,6 +55,7 @@ cabbre qq q!
 
 cabbre re resolve
 
+cabbre nrd NERDTreeToggle
 
 cabbre sshconfig edit ~/.ssh/config
 cabbre cp !cp % 
@@ -65,7 +66,6 @@ cabbre cpsnpt !cp % ~/.vim/plugged/myvim/snippets/UltiSnips/go.snippets
 cabbre kara edit ~/github.com/xiote/karabiner/karabiner.json
 cabbre del bdelete
 cabbre delb bdelete!
-cabbre some source %
 cabbre ne bn
 cabbre pr bp
 
