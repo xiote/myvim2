@@ -1,0 +1,1 @@
+cabbre db !dotnet build
