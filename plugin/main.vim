@@ -56,7 +56,7 @@ cabbre qq q!
 cabbre re resolve
 
 cabbre nd NERDTreeToggle
-
+cabbre some source %
 cabbre sshconfig edit ~/.ssh/config
 cabbre cp !cp % 
 cabbre cpkara !cp % ~/.config/karabiner/karabiner.json
