@@ -31,7 +31,6 @@ cabbre gu Git pull
 
 cabbre gitbranchd GitBranchD
 cabbre deletebranch GitBranchD
-cabbre db GitBranchD
 cabbre deletenewbranch Git branch -D new
 cabbre dnb Git branch -D new
 cabbre removebranch GitBranchD
