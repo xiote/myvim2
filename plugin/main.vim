@@ -54,9 +54,9 @@ let &t_EI.="\e[2 q" "EI = NORMAL mode (ELSE)
 "  5 -> blinking vertical bar
 "  6 -> solid vertical bar
 
-set cul
-autocmd InsertEnter * set nocul
-autocmd InsertLeave * set cul
+set nocul
+autocmd InsertEnter * set cul
+autocmd InsertLeave * set nocul
 
 set autochdir           " 열린 파일에 맞춰서 자동으로 경로 변경
 set autowrite
