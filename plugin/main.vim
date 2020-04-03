@@ -38,6 +38,7 @@ nnoremap O O<Esc>
 nmap ç :
 imap ç <C-o>ç
 
+"https://vim.fandom.com/wiki/Change_cursor_shape_in_different_modes
 "Mode Settings
 
 let &t_SI.="\e[5 q" "SI = INSERT mode
