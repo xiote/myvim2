@@ -80,6 +80,7 @@ cabbre cpk !cp % ~/.config/karabiner/karabiner.json
 cabbre cpgosnpt !cp % ~/.vim/plugged/myvim/snippets/UltiSnips/go.snippets
 cabbre cpsnpt !cp % ~/.vim/plugged/myvim/snippets/UltiSnips/go.snippets
 cabbre kara edit ~/github.com/xiote/karabiner/karabiner.json
+cabbre okara edit ~/github.com/xiote/karabiner/karabiner.json
 cabbre del bdelete
 cabbre delb bdelete!
 cabbre ne bn
