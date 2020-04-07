@@ -5,3 +5,5 @@ if executable('sourcekit-lsp')
         \ 'whitelist': ['swift'],
         \ })
 endif
+
+autocmd FileType swift setlocal omnifunc=lsp#complete
