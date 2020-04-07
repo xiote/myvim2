@@ -108,19 +108,6 @@ cabbre gosnpt edit ~/github.com/xiote/myvim/snippets/UltiSnips/go.snippets
 cabbre govim edit ~/github.com/xiote/myvim/plugin/go.vim
 cabbre pairvim edit ~/github.com/xiote/myvim/plugin/auto-pairs.vim
 
-if has("autocmd")
-  filetype on
-  autocmd FileType go cabbre bl GoBuild
-  autocmd FileType go cabbre rn GoRun
-  autocmd FileType go cabbre ts GoTest
-  autocmd FileType swift cabbre bl !swift build
-  autocmd FileType swift cabbre rn !swift run
-  autocmd FileType swift cabbre ts !swift test
-"  autocmd BufWrite * :Autoformat
-  autocmd FileType cs cabbre bl !dotnet build
-  autocmd FileType cs cabbre rn !dotnet run
-  autocmd FileType cs cabbre ts !dotnet test
-endif
 
 function! ClearScreen()
     silent !clear
