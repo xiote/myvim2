@@ -116,7 +116,8 @@ if has("autocmd")
   autocmd FileType swift cabbre bl !swift build
   autocmd FileType swift cabbre rn !swift run
   autocmd FileType swift cabbre ts !swift test
-  autocmd BufWritePost *.swift !swiftformat %
+  autocmd BufWrite *.swift !swiftformat %
+  autocmd BufWrite * :Autoformat
   autocmd FileType cs cabbre bl !dotnet build
   autocmd FileType cs cabbre rn !dotnet run
   autocmd FileType cs cabbre ts !dotnet test
