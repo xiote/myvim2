@@ -1,6 +1,9 @@
-cabbre gt GoTest
-cabbre gi GoInstall
-cabbre gr GoRun
+if has("autocmd")
+  filetype on
+  autocmd FileType go cabbre bl GoBuild
+  autocmd FileType go cabbre rn GoRun
+  autocmd FileType go cabbre ts GoTest
+endif
 
 cabbre pk Package
 command! -nargs=* Package :call Package(<f-args>)
