@@ -108,6 +108,11 @@ cabbre gosnpt edit ~/github.com/xiote/myvim/snippets/UltiSnips/go.snippets
 cabbre govim edit ~/github.com/xiote/myvim/plugin/go.vim
 cabbre pairvim edit ~/github.com/xiote/myvim/plugin/auto-pairs.vim
 
+if has("autocmd")
+  filetype on
+  autocmd FileType swift cabbre bl !swift build
+endif
+
 function! ClearScreen()
     silent !clear
     redraw!
