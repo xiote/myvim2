@@ -11,7 +11,7 @@ set backspace=indent,eol,start
                                             " 저장
 nmap <c-w> :w<CR>
 nmap <c-c> :gc<CR>
-"nmap <C-p> :gp<CR>
+nmap <C-p> :gp<CR>
 nmap <c-s> :source %
                                             "break history
 inoremap <space> <c-g>u<space>
