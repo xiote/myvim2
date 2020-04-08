@@ -32,9 +32,11 @@ set backspace=indent,eol,start
 "imap LL <ESC>A
 
 nmap <C-w> :w<CR>
+nmap <C-c> :gc<CR>
+nmap <C-s> :source %<CR>
+
 nmap <C-w>c :w<CR>:gc<CR>
 nmap <C-w>cp :w<CR>:gc<CR>:gp<CR>
-nmap <C-s> :source %<CR>
 
 nnoremap o o<Esc>
 nnoremap O O<Esc>
