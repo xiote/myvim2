@@ -8,6 +8,8 @@ set backspace=indent,eol,start
 "nmap {ab :ls<CR>
                                             " 저장
 nnoremap <space>w :w<CR>:!git reset<CR>:!git add %<CR>:Silent git commit -m %<CR>
+nnoremap <space>s :source %<cr>
+nmap <c-c> :source
 nmap <C-p> :gp<CR>
 nmap <c-c> :source
                                             "break history
