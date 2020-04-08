@@ -7,17 +7,10 @@ set backspace=indent,eol,start
                                             " nmap은 쓰지 않는다. 콜론으로 명령모드 실행
 "nmap {ab :ls<CR>
                                             " 저장
-nmap <c-w> :w<CR>:!git reset<CR>:!git add %<CR>:Silent git commit -m %<CR>
-nmap <c-c> :gc<CR>
+nnoremap <space>w :w<CR>:!git reset<CR>:!git add %<CR>:Silent git commit -m %<CR>
 nmap <C-p> :gp<CR>
-nmap <c-s> :source %
+nmap <c-c> :source
                                             "break history
-
-
-
-
-
-
 
 
 inoremap <space> <c-g>u<space>
