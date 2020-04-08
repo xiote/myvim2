@@ -8,33 +8,18 @@ imap <C-p> <ESC>
 set backspace=indent,eol,start
                                             " nmap은 쓰지 않는다. 콜론으로 명령모드 실행
 "nmap {ab :ls<CR>
-
-" 입력모드
                                             " 저장
-"imap WW <C-o>:w<CR>
-"
-"imap DD <ESC>ddi
-"imap PP <ESC>pi
-"imap YY <ESC>Yi
-"imap OO <ESC>oi
-"                                            " 편집화면을 중앙으로 이동
-"imap ZZ <ESC>zza
-"
-"imap JJ <Esc>yss"A
-"
-"imap HH <ESC>I
-"imap SS <ESC>S
-"imap CC <ESC>lC
-"imap UU <ESC>ui
-"imap RR <ESC>ui
-"imap YY <ESC>Yi
-"                                            " 라인의 가장 오른쪽으로
-"imap LL <ESC>A
-
-nmap <C-w> :w<CR>
-nmap <C-c> :gc<CR>
-nmap <C-p> :gp<CR>
-nmap <C-s> :source %
+nmap <c-w> :w<CR>
+nmap <c-c> :gc<CR>
+"nmap <C-p> :gp<CR>
+nmap <c-s> :source %
+                                            "break history
+inoremap <space> <c-g>u<space>
+inoremap <bs>    <c-g>u<bs>
+inoremap <c-w>   <c-g>u<c-w>
+inoremap <c-h>   <c-g>u<c-h>
+inoremap <CR>   <c-g>u<CR>
+inoremap <TAB>   <c-g>u<TAB>
 
 
 nnoremap o o<Esc>
