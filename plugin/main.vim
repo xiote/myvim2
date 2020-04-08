@@ -33,6 +33,8 @@ set backspace=indent,eol,start
 
 nmap <C-w> :w<CR>
 nmap <C-w>c :w<CR>:gc<CR>
+nmap <C-w>cp :w<CR>:gc<CR>:gp<CR>
+nmap <C-s> :source %<CR>
 
 nnoremap o o<Esc>
 nnoremap O O<Esc>
