@@ -7,14 +7,11 @@ set backspace=indent,eol,start
                                             " nmap은 쓰지 않는다. 콜론으로 명령모드 실행
 "nmap {ab :ls<CR>
                                             " 저장
-nmap <c-w> :w<CR>:gc<CR><CR>
+nmap <c-w> :w<CR>:!git reset<CR>:!git add %<CR>:Silent git commit -m %<CR>
 nmap <c-c> :gc<CR>
 nmap <C-p> :gp<CR>
 nmap <c-s> :source %
                                             "break history
-
-
-
 
 
 
@@ -110,6 +107,9 @@ cabbre gosnpt edit ~/github.com/xiote/myvim/snippets/UltiSnips/go.snippets
 cabbre govim edit ~/github.com/xiote/myvim/plugin/go.vim
 cabbre pairvim edit ~/github.com/xiote/myvim/plugin/auto-pairs.vim
 
+command! -nargs=1 Silent
+\   execute 'silent !' . <q-args>
+\ | execute 'redraw!'
 
 function! ClearScreen()
     silent !clear
