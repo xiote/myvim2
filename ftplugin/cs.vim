@@ -4,5 +4,4 @@ cabbre ts !dotnet test
 
 autocmd BufWritePre * OmniSharpCodeFormat
 
-
 let b:ale_linters = ['OmniSharp']
