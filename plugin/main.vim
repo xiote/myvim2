@@ -81,7 +81,8 @@ cabbre zshrc edit ~/github.com/xiote/zsh/.zshrc
 
 cabbre swiftvim edit ~/github.com/xiote/myvim/ftplugin/swift.vim
 cabbre csvim edit ~/github.com/xiote/myvim/ftplugin/cs.vim
-cabbre dotvim edit ~/github.com/xiote/myvim/plugin/dotnet.vim
+cabbre govim edit ~/github.com/xiote/myvim/ftplugin/go.vim
+
 cabbre pythonvim edit ~/github.com/xiote/myvim/plugin/python.vim
 cabbre ansiblevim edit ~/github.com/xiote/myvim/plugin/ansible.vim
 cabbre mainvim edit ~/github.com/xiote/myvim/plugin/main.vim
@@ -97,7 +98,6 @@ cabbre synvim edit ~/github.com/xiote/myvim/plugin/syntastic.vim
 cabbre myvim edit ~/github.com/xiote/myvim/plugin/
 cabbre linkmdvim edit ~/github.com/xiote/myvim/plugin/linkmd.vim
 cabbre gosnpt edit ~/github.com/xiote/myvim/snippets/UltiSnips/go.snippets
-cabbre govim edit ~/github.com/xiote/myvim/plugin/go.vim
 cabbre pairvim edit ~/github.com/xiote/myvim/plugin/auto-pairs.vim
 
 command! -nargs=1 Silent
