@@ -31,6 +31,7 @@ set backspace=indent,eol,start
 "                                            " 라인의 가장 오른쪽으로
 "imap LL <ESC>A
 
+nmap <C-w> :w<CR>
 nmap <C-w>c :w<CR>:gc<CR>
 
 nnoremap o o<Esc>
