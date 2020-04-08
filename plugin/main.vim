@@ -7,7 +7,7 @@ set backspace=indent,eol,start
                                             " nmap은 쓰지 않는다. 콜론으로 명령모드 실행
 "nmap {ab :ls<CR>
                                             " 저장
-nmap <c-w> :w<CR>:gc<CR>
+nmap <c-w> :w<CR>:gc<CR><CR>
 nmap <c-c> :gc<CR>
 nmap <C-p> :gp<CR>
 nmap <c-s> :source %
