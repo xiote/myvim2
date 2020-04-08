@@ -2,8 +2,6 @@ syntax on
 
 set nocompatible
 filetype plugin on
-                                            " 편집모드에서 <C-p> to ESC
-imap <C-p> <ESC>
                                             " backspace 제약 제거
 set backspace=indent,eol,start
                                             " nmap은 쓰지 않는다. 콜론으로 명령모드 실행
@@ -14,6 +12,17 @@ nmap <c-c> :gc<CR>
 nmap <C-p> :gp<CR>
 nmap <c-s> :source %
                                             "break history
+
+
+
+
+
+
+
+
+
+
+
 inoremap <space> <c-g>u<space>
 inoremap <bs>    <c-g>u<bs>
 inoremap <c-w>   <c-g>u<c-w>
