@@ -10,7 +10,6 @@ let mapleader=" "
 
 nnoremap <leader> :
 nnoremap <leader>w :w<cr>
-cabbre gcme <BAR>Git reset<BAR>Git add %<BAR>Git commit -m %
 nnoremap <leader>c :Git reset<BAR>Git add %<BAR>Git commit -m %c<cr>
 nnoremap <leader>p :gp<cr>
 "noremap <cr> :
