@@ -1,5 +1,5 @@
-cabbre bl !swiftc %
-cabbre rn !swift % 
+cabbre bl !swift build
+cabbre rn !swift run 
 cabbre ts !swift test
 let b:ale_fixers = ['swiftformat']
 
