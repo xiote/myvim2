@@ -1,7 +1,9 @@
 cabbre bl !swift build
 cabbre rn !swift run 
 cabbre ts !swift test
+
 let b:ale_fixers = ['swiftformat']
+let b:auto_save = 1
 
 " SourceKit-LSP configuration
 if executable('sourcekit-lsp')
