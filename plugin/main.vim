@@ -49,7 +49,14 @@ set nocul
                         " 폴더 자동 생성, :edit /path/file 
 autocmd BufNewFile * :exe ': !mkdir -p ' . escape(fnamemodify(bufname('%'),':p:h'),'#% \\')
                         " 자동저장
-autocmd TextChanged,TextChangedI <buffer> silent write
+"autocmd TextChanged,TextChangedI <buffer> silent write
+
+highlight Cursor guifg=white guibg=black
+highlight iCursor guifg=white guibg=steelblue
+set guicursor=n-v-c:block-Cursor
+set guicursor+=i:ver100-iCursor
+set guicursor+=n-v-c:blinkon0
+set guicursor+=i:blinkwait10
 
 set autochdir           " 열린 파일에 맞춰서 자동으로 경로 변경
 set autowrite
