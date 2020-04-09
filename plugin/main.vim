@@ -30,7 +30,7 @@ imap ç <C-o>ç
 "https://vim.fandom.com/wiki/Change_cursor_shape_in_different_modes
 "Mode Settings
 
-let &t_SI.="\e[2 q" "SI = INSERT mode
+let &t_SI.="\e[6 q" "SI = INSERT mode
 let &t_SR.="\e[6 q" "SR = REPLACE mode
 let &t_EI.="\e[6 q" "EI = NORMAL mode (ELSE)
 
