@@ -6,10 +6,17 @@ filetype plugin on
 set backspace=indent,eol,start
                                             " nmap은 쓰지 않는다. 콜론으로 명령모드 실행
 "nmap {ab :ls<CR>
-                                            " 저장
-nnoremap <space>w :w<CR>:!git reset<CR>:!git add %<CR>:Silent git commit -m %<CR>
-nnoremap <space>s :source %<cr>
+nnoremap <space>b :bl<cr>
+nnoremap <space>r :rn<cr>
+nnoremap <space>t :ts<cr>
+
+nnoremap <space>c <CR>:!git add %<CR>:Silent git commit -m %<CR>
 nnoremap <space>p :!git push<cr>
+nnoremap <space>u :!git pull<cr>
+
+nnoremap <space>e :e<cr>
+nnoremap <space>s :source %<cr>
+nnoremap <space>w :w<CR>
                                             "break history
 inoremap <space> <c-g>u<space>
 inoremap <bs>    <c-g>u<bs>
