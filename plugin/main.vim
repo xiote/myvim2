@@ -30,9 +30,9 @@ imap ç <C-o>ç
 "https://vim.fandom.com/wiki/Change_cursor_shape_in_different_modes
 "Mode Settings
 
-"let &t_SI.="\e[5 q" "SI = INSERT mode
-"let &t_SR.="\e[2 q" "SR = REPLACE mode
-"let &t_EI.="\e[2 q" "EI = NORMAL mode (ELSE)
+let &t_SI.="\e[2 q" "SI = INSERT mode
+let &t_SR.="\e[2 q" "SR = REPLACE mode
+let &t_EI.="\e[2 q" "EI = NORMAL mode (ELSE)
 
 "Cursor settings:
 
@@ -51,17 +51,6 @@ autocmd BufNewFile * :exe ': !mkdir -p ' . escape(fnamemodify(bufname('%'),':p:h
                         " 자동저장
 "autocmd TextChanged,TextChangedI <buffer> silent write
 
-if &term =~ '^xterm\\|rxvt'
-  " solid underscore
-  let &t_SI .= "\<Esc>[4 q"
-  " solid block
-  let &t_EI .= "\<Esc>[2 q"
-  " 1 or 0 -> blinking block
-  " 3 -> blinking underscore
-  " Recent versions of xterm (282 or above) also support
-  " 5 -> blinking vertical bar
-  " 6 -> solid vertical bar
-endif
 
 set autochdir           " 열린 파일에 맞춰서 자동으로 경로 변경
 set autowrite
