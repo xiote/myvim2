@@ -8,23 +8,7 @@ set backspace=indent,eol,start
 
 let mapleader=" "
 
-nnoremap <leader>bl :bl<cr>
-nnoremap <leader>rn :rn<cr>
-nnoremap <leader>ts :ts<cr>
-
-nnoremap <leader>gc <CR>:!git add %<CR>:Silent git commit -m %<CR>
-nnoremap <leader>gp :Silent git push<cr>
-nnoremap <leader>gu :!git pull<cr>
-nnoremap <leader>gl :!git log<cr>
-
-nnoremap <leader>e :e<cr>
-nnoremap <leader>some :source %<cr>
-nnoremap <leader>w :w<CR>
-
-nnoremap <leader>q :q<CR>
-nnoremap <leader>qq :q!<CR>
-nnoremap <leader>qa :qa<CR>
-nnoremap <leader>bd :bd<CR>
+nnoremap <leader> :
 
 
                                             "break history
