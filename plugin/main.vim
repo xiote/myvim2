@@ -44,8 +44,8 @@ let &t_EI.="\e[2 q" "EI = NORMAL mode (ELSE)
 "  6 -> solid vertical bar
 
 set nocul
-autocmd InsertEnter * set cul
-autocmd InsertLeave * set nocul
+"autocmd InsertEnter * set cul
+"autocmd InsertLeave * set nocul
                         " 폴더 자동 생성, :edit /path/file 
 autocmd BufNewFile * :exe ': !mkdir -p ' . escape(fnamemodify(bufname('%'),':p:h'),'#% \\')
 
