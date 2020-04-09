@@ -46,7 +46,7 @@ let &t_EI.="\e[6 q" "EI = NORMAL mode (ELSE)
 "autocmd InsertEnter * set cul
 "autocmd InsertLeave * set nocul
                         " 폴더 자동 생성, :edit /path/file 
-autocmd BufNewFile * :exe ': !mkdir -p ' . escape(fnamemodify(bufname('%'),':p:h'),'#% \\')
+autocmd BufNewFile * :exe ': Silent mkdir -p ' . escape(fnamemodify(bufname('%'),':p:h'),'#% \\')
 
 set autochdir           " 열린 파일에 맞춰서 자동으로 경로 변경
 set autowrite
