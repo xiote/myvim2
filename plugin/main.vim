@@ -13,7 +13,7 @@ nnoremap <leader>rn :rn<cr>
 nnoremap <leader>ts :ts<cr>
 
 nnoremap <leader>gc <CR>:!git add %<CR>:Silent git commit -m %<CR>
-nnoremap <leader>gp :!git push<cr>
+nnoremap <leader>gp :Silent git push<cr>
 nnoremap <leader>gu :!git pull<cr>
 nnoremap <leader>gl :!git log<cr>
 
