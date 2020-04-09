@@ -49,6 +49,7 @@ let &t_EI.="\e[2 q" "EI = NORMAL mode (ELSE)
 autocmd BufNewFile * :exe ': Silent mkdir -p ' . escape(fnamemodify(bufname('%'),':p:h'),'#% \\')
 
 set autochdir           " 열린 파일에 맞춰서 자동으로 경로 변경
+
                         " 탭설정
 set expandtab
 set shiftwidth=4 
