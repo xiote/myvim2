@@ -11,7 +11,6 @@ let mapleader=" "
 "nnoremap <leader> :
 "noremap <cr> :
 
-
                                             "break history
 inoremap <space> <c-g>u<space>
 inoremap <bs>    <c-g>u<bs>
