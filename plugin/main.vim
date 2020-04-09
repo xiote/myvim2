@@ -4,8 +4,7 @@ set nocompatible
 filetype plugin on
                                             " backspace 제약 제거
 set backspace=indent,eol,start
-                                            " nmap은 쓰지 않는다. 콜론으로 명령모드 실행
-"nmap {ab :ls<CR>
+
 
 let mapleader=" "
 
@@ -25,8 +24,6 @@ nnoremap <leader>w :w<CR>
 nnoremap <leader>q :q<CR>
 nnoremap <leader>qq :q!<CR>
 nnoremap <leader>qa :qa<CR>
-
-
 
 
                                             "break history
