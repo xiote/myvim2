@@ -12,6 +12,7 @@ nnoremap <leader>w :w<cr>
 nnoremap <leader>c :Git reset<BAR>Git add %<BAR>Git commit -m %c<cr>
 nnoremap <leader>p :Git push<cr>
 nnoremap <leader>s :source %<cr>
+nnoremap <leader>q :q!<cr>
 
                                             "break history
 inoremap <space> <c-g>u<space>
