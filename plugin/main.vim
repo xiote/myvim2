@@ -24,6 +24,7 @@ nnoremap <leader>w :w<CR>
 nnoremap <leader>q :q<CR>
 nnoremap <leader>qq :q!<CR>
 nnoremap <leader>qa :qa<CR>
+nnoremap <leader>bd :bd<CR>
 
 
                                             "break history
