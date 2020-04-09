@@ -8,7 +8,8 @@ set backspace=indent,eol,start
 
 let mapleader=" "
 
-nnoremap <leader> :
+"nnoremap <leader> :
+noremap <cr> :
 
 
                                             "break history
@@ -18,7 +19,6 @@ inoremap <c-w>   <c-g>u<c-w>
 inoremap <c-h>   <c-g>u<c-h>
 inoremap <CR>   <c-g>u<CR>
 inoremap <TAB>   <c-g>u<TAB>
-
 
 nnoremap o o<Esc>
 nnoremap O O<Esc>
@@ -48,6 +48,8 @@ autocmd InsertEnter * set cul
 autocmd InsertLeave * set nocul
                         " 폴더 자동 생성, :edit /path/file 
 autocmd BufNewFile * :exe ': !mkdir -p ' . escape(fnamemodify(bufname('%'),':p:h'),'#% \\')
+                        " 자동 저장
+autocmd TextChanged,TextChangedI <buffer> silent write
 
 set autochdir           " 열린 파일에 맞춰서 자동으로 경로 변경
 set autowrite
