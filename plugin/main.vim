@@ -7,8 +7,7 @@ set backspace=indent,eol,start
 
 
 let mapleader=" "
-
-nnoremap <leader><leader> :
+                                            " 단축키
 nnoremap <leader>w :w<cr>
 nnoremap <leader>c :Git reset<BAR>Git add %<BAR>Git commit -m %c<cr>
 nnoremap <leader>p :Git push<cr>
