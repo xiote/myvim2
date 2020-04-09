@@ -30,9 +30,9 @@ imap ç <C-o>ç
 "https://vim.fandom.com/wiki/Change_cursor_shape_in_different_modes
 "Mode Settings
 
-"let &t_SI.="\e[2 q" "SI = INSERT mode
-"let &t_SR.="\e[2 q" "SR = REPLACE mode
-"let &t_EI.="\e[2 q" "EI = NORMAL mode (ELSE)
+let &t_SI.="\e[2 q" "SI = INSERT mode
+let &t_SR.="\e[2 q" "SR = REPLACE mode
+let &t_EI.="\e[2 q" "EI = NORMAL mode (ELSE)
 
 "Cursor settings:
 
@@ -43,7 +43,7 @@ imap ç <C-o>ç
 "  5 -> blinking vertical bar
 "  6 -> solid vertical bar
 
-set nocul
+"set nocul
 "autocmd InsertEnter * set cul
 "autocmd InsertLeave * set nocul
                         " 폴더 자동 생성, :edit /path/file 
