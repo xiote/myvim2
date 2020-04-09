@@ -17,6 +17,10 @@ nnoremap <space>u :!git pull<cr>
 nnoremap <space>e :e<cr>
 nnoremap <space>s :source %<cr>
 nnoremap <space>w :w<CR>
+
+
+
+
                                             "break history
 inoremap <space> <c-g>u<space>
 inoremap <bs>    <c-g>u<bs>
