@@ -8,7 +8,7 @@ set backspace=indent,eol,start
 
 let mapleader=" "
 
-"nnoremap <leader> :
+nnoremap <leader> :
 "noremap <cr> :
 
                                             "break history
