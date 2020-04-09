@@ -10,6 +10,8 @@ let mapleader=" "
 
 nnoremap <leader> :
 nnoremap <leader>w :w<cr>
+nnoremap <leader>c :gc<cr>
+nnoremap <leader>p :gp<cr>
 "noremap <cr> :
 
                                             "break history
