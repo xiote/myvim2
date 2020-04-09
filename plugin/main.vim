@@ -18,7 +18,7 @@ nnoremap <leader>gu :!git pull<cr>
 nnoremap <leader>gl :!git log<cr>
 
 nnoremap <leader>e :e<cr>
-nnoremap <leader>so :source %<cr>
+nnoremap <leader>some :source %<cr>
 nnoremap <leader>w :w<CR>
 
 nnoremap <leader>q :q<CR>
