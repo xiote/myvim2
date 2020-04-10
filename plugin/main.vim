@@ -14,7 +14,9 @@ nnoremap <leader>p :Git push<cr>
 nnoremap <leader>s :source %<cr>
 nnoremap <leader>qq :qa!<cr>
 nnoremap <leader>q :bd!<cr>
-nnoremap <leader>n :nd<cr>
+nnoremap <leader>m :nd<cr>
+nnoremap <leader>n :bn<cr>
+nnoremap <leader>p :bp<cr>
 
                                             "break history
 inoremap <space> <c-g>u<space>
