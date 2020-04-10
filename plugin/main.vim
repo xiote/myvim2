@@ -19,6 +19,8 @@ nnoremap <leader>m :NERDTreeToggle<cr>
 nnoremap <leader>n :bn<cr>
 nnoremap <leader>p :bp<cr>
 
+nnoremap <leader>u :sus<cr>
+
                                             "break history
 inoremap <space> <c-g>u<space>
 inoremap <bs>    <c-g>u<bs>
