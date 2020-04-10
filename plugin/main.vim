@@ -10,14 +10,14 @@ let mapleader=" "
                                             " 단축키
 nnoremap <leader>w :w<cr>
 nnoremap <leader>c :Git reset<BAR>Git add %<BAR>Git commit -m %c<cr>
-nnoremap <leader>h :Git push<cr>
+nnoremap <leader>p :Git push<cr>
 
 nnoremap <leader>s :source %<cr>
 nnoremap <leader>q :bd!<cr>
 nnoremap <leader>m :NERDTreeToggle<cr>
 
-nnoremap <leader>n :bn<cr>
-nnoremap <leader>p :bp<cr>
+nnoremap <leader>l :bn<cr>
+nnoremap <leader>h :bp<cr>
 
 nnoremap <leader>u :sus<cr>
 
