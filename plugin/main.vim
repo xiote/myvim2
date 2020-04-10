@@ -23,6 +23,7 @@ nnoremap <leader>u :sus<cr>
 
                                             "break history
 inoremap <space> <c-g>u<space>
+inoremap . <c-g>u.
 inoremap <bs>    <c-g>u<bs>
 inoremap <c-w>   <c-g>u<c-w>
 inoremap <c-h>   <c-g>u<c-h>
