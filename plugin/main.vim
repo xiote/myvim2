@@ -4,6 +4,8 @@ set nocompatible
 filetype plugin on
                                             " 줄번호 표시
 set number
+                                            " 마우스 사용
+set mouse=a
                                             " backspace 제약 제거
 set backspace=indent,eol,start
 
