@@ -2,6 +2,8 @@ syntax on
 
 set nocompatible
 filetype plugin on
+                                            " 줄번호 표시
+set number
                                             " backspace 제약 제거
 set backspace=indent,eol,start
 
