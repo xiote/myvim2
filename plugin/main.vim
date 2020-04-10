@@ -10,11 +10,12 @@ let mapleader=" "
                                             " 단축키
 nnoremap <leader>w :w<cr>
 nnoremap <leader>c :Git reset<BAR>Git add %<BAR>Git commit -m %c<cr>
-nnoremap <leader>p :Git push<cr>
+nnoremap <leader>h :Git push<cr>
+
 nnoremap <leader>s :source %<cr>
-nnoremap <leader>qq :qa!<cr>
 nnoremap <leader>q :bd!<cr>
 nnoremap <leader>m :nd<cr>
+
 nnoremap <leader>n :bn<cr>
 nnoremap <leader>p :bp<cr>
 
