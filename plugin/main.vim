@@ -14,7 +14,7 @@ nnoremap <leader>h :Git push<cr>
 
 nnoremap <leader>s :source %<cr>
 nnoremap <leader>q :bd!<cr>
-nnoremap <leader>m :nd<cr>
+nnoremap <leader>m :NERDTreeToggle<cr>
 
 nnoremap <leader>n :bn<cr>
 nnoremap <leader>p :bp<cr>
