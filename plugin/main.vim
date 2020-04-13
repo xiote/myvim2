@@ -23,9 +23,7 @@ nnoremap <leader>q :bd!<cr>
 nnoremap <leader>ne :bn<cr>
 nnoremap <leader>pr :bp<cr>
 
-
-
-                                            "break history
+                                            " break history
 inoremap <space> <c-g>u<space>
 inoremap . <c-g>u.
 inoremap <bs>    <c-g>u<bs>
