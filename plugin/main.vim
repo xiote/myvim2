@@ -13,19 +13,11 @@ let mapleader="'"
                                             " 단축키
 nnoremap <space> :
 
-nnoremap <leader>gc :Git reset<BAR>Git add %<BAR>Git commit -m %c<cr>
-nnoremap <leader>gp :Git push<cr>
-nnoremap <leader>sus :sus<cr>
-nnoremap <leader>some :source %<cr>
-nnoremap <leader>nd :NERDTreeToggle<cr>
-nnoremap <leader>q :bd!<cr>
-nnoremap <leader>w :wincmd w<cr>
 
 nnoremap <c-w> :bp<cr>
 nnoremap <c-e> :bn<cr>
 nnoremap <c-q> :bd!<cr>
 nnoremap <c-s> :w<cr>
-
 
                                             " break history
 inoremap <space> <c-g>u<space>
@@ -73,6 +65,10 @@ set shiftwidth=4
 set softtabstop=4 
 
 set nowrapscan          " 검색시, 키워드가 더이상없는 경우, 맨앞에서부터 검색되지 않도록
+
+
+cabbre ww wincmd w
+cabbre nd NERDTreeToggle
 
 cabbre qq q!
 
