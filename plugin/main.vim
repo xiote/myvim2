@@ -17,10 +17,8 @@ nnoremap <leader>gp :Git push<cr>
 nnoremap <leader>sus :sus<cr>
 nnoremap <leader>some :source %<cr>
 
-nnoremap <leader>m :NERDTreeToggle<cr>
+nnoremap <leader>n :NERDTreeToggle<cr>
 
-nnoremap <C-w> :bp<cr>
-nnoremap <C-e> :bn<cr>
 
 
                                             "break history
