@@ -11,11 +11,12 @@ set backspace=indent,eol,start
 
 let mapleader="\<tab>"
                                             " 단축키
+nnoremap <space> :
 nnoremap <leader>gc :Git reset<BAR>Git add %<BAR>Git commit -m %c<cr>
 nnoremap <leader>gp :Git push<cr>
 nnoremap <leader>sus :sus<cr>
+nnoremap <leader>some :source %<cr>
 
-nnoremap <leader>s :source %<cr>
 nnoremap <leader>m :NERDTreeToggle<cr>
 
 nnoremap <C-w> :bp<cr>
