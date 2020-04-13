@@ -9,20 +9,20 @@ set number
 set backspace=indent,eol,start
 
 
-let mapleader=" "
+let mapleader="\<tab>"
                                             " 단축키
-nnoremap <leader>w :w<cr>
-nnoremap <leader>c :Git reset<BAR>Git add %<BAR>Git commit -m %c<cr>
-nnoremap <leader>p :Git push<cr>
+nnoremap <leader>gc :Git reset<BAR>Git add %<BAR>Git commit -m %c<cr>
+nnoremap <leader>gp :Git push<cr>
+nnoremap <leader>sus :sus<cr>
 
 nnoremap <leader>s :source %<cr>
-nnoremap <leader>q :bd!<cr>
 nnoremap <leader>m :NERDTreeToggle<cr>
 
 nnoremap <C-w> :bp<cr>
 nnoremap <C-e> :bn<cr>
+nnoremap <C-q> :bd!<cr>
+nnoremap <C-s> :w<cr>
 
-nnoremap <leader>u :sus<cr>
 
                                             "break history
 inoremap <space> <c-g>u<space>
