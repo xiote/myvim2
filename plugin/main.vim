@@ -20,8 +20,11 @@ nnoremap <leader>some :source %<cr>
 nnoremap <leader>nd :NERDTreeToggle<cr>
 nnoremap <leader>q :bd!<cr>
 nnoremap <leader>w :wincmd w<cr>
+
 nnoremap <c-w> :bp<cr>
 nnoremap <c-e> :bn<cr>
+nnoremap <c-q> :bd!<cr>
+nnoremap <c-s> :w<cr>
 
 
                                             " break history
