@@ -18,10 +18,11 @@ nnoremap <leader>gp :Git push<cr>
 nnoremap <leader>sus :sus<cr>
 nnoremap <leader>some :source %<cr>
 nnoremap <leader>nd :NERDTreeToggle<cr>
-nnoremap <leader>w :w<cr>
 nnoremap <leader>q :bd!<cr>
-nnoremap <leader>ne :bn<cr>
-nnoremap <leader>pr :bp<cr>
+nnoremap <leader>w :wincmd w<cr>
+nnoremap <c-w> :bp<cr>
+nnoremap <c-e> :bn<cr>
+
 
                                             " break history
 inoremap <space> <c-g>u<space>
