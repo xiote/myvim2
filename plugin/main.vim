@@ -21,8 +21,6 @@ nnoremap <leader>m :NERDTreeToggle<cr>
 
 nnoremap <C-w> :bp<cr>
 nnoremap <C-e> :bn<cr>
-nnoremap <C-q> :bd!<cr>
-nnoremap <C-s> :w<cr>
 
 
                                             "break history
