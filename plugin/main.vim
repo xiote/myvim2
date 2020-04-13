@@ -19,9 +19,8 @@ nnoremap <leader>s :source %<cr>
 nnoremap <leader>q :bd!<cr>
 nnoremap <leader>m :NERDTreeToggle<cr>
 
-nnoremap <C-w> :b#<cr>
-nnoremap <leader>l :bn<cr>
-nnoremap <leader>h :bp<cr>
+nnoremap <C-w> :bp<cr>
+nnoremap <C-e> :bn<cr>
 
 nnoremap <leader>u :sus<cr>
 
