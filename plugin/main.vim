@@ -11,8 +11,8 @@ set backspace=indent,eol,start
 
 let mapleader="'"
                                             " 단축키
-nnoremap <space> :
 nnoremap <c-l> :
+nnoremap : <nop>
 
 
 nnoremap <c-w> :bp<cr>
