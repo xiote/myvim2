@@ -1,5 +1,5 @@
-cabbre bl !gradle build
-cabbre rn !gradle run 
-cabbre ut !gradle test
+cabbre bl Gradle build
+cabbre rn Gradle run 
+cabbre ut Gradle test
 
 let b:ale_fixers = ['google_java_format']
