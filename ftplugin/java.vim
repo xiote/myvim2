@@ -1,4 +1,4 @@
-cabbre bl !javac %
+cabbre bl !javac % --module-path ../lib
 cabbre rn !java %
 cabbre ut Gradle test
 
