@@ -1,4 +1,4 @@
-cabbre bl !javac %
+cabbre bl !javac % --class-path $(echo ../lib/*.jar | tr ' ' ':')
 cabbre rn !java %
 cabbre ut Gradle test
 
