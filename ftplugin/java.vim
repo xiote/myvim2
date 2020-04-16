@@ -4,4 +4,4 @@ cabbre ut Gradle test
 
 let b:ale_fixers = ['google_java_format']
 let b:ale_java_javac_classpath = '../lib/*'
-let g:syntastic_java_javac_classpath = '../lib/*'
+let b:syntastic_java_javac_classpath = '../lib/*'
