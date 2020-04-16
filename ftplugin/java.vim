@@ -1,4 +1,4 @@
-cabbre bl Gradle build
+cabbre bl javac
 cabbre rn Gradle run 
 cabbre ut Gradle test
 
