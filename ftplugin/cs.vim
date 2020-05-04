@@ -1,6 +1,6 @@
 cabbre bl !dotnet build
 cabbre rn !dotnet run
-cabbre ts !dotnet test
+cabbre ut !dotnet test
 
 autocmd BufWritePre * OmniSharpCodeFormat
 
