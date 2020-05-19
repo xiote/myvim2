@@ -38,9 +38,11 @@ imap ç <C-o>ç
 "https://vim.fandom.com/wiki/Change_cursor_shape_in_different_modes
 "Mode Settings
 
-let &t_SI.="\e[6 q" "SI = INSERT mode
-let &t_SR.="\e[2 q" "SR = REPLACE mode
-let &t_EI.="\e[2 q" "EI = NORMAL mode (ELSE)
+if has('macunix')
+    let &t_SI.="\e[6 q" "SI = INSERT mode
+    let &t_SR.="\e[2 q" "SR = REPLACE mode
+    let &t_EI.="\e[2 q" "EI = NORMAL mode (ELSE)
+endif
 
 "Cursor settings:
 
