@@ -1,5 +1,6 @@
 syntax on
 
+set encoding=utf-8
 set nocompatible
 filetype plugin on
                                             " 줄번호 표시
