@@ -81,6 +81,7 @@ cabbre some source %
 cabbre sshconfig edit ~/.ssh/config
 cabbre cp !cp % 
 cabbre cpkara !cp % ~/.config/karabiner/karabiner.json
+cabbre ahk !autohotkey ~\github.com\xiote\autohotkey\main.ahk
 cabbre cpk !cp % ~/.config/karabiner/karabiner.json
 cabbre cpgosnpt !cp % ~/.vim/plugged/myvim/snippets/UltiSnips/go.snippets
 cabbre cpsnpt !cp % ~/.vim/plugged/myvim/snippets/UltiSnips/go.snippets
