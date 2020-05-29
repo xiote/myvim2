@@ -12,6 +12,8 @@ set backspace=indent,eol,start
 
 let mapleader="'"
                                             " 단축키
+nnoremap <c-l> :
+
 nnoremap <c-w> :bp<cr>
 nnoremap <c-e> :bn<cr>
 nnoremap <c-q> :bd!<cr>
@@ -79,10 +81,12 @@ cabbre some source %
 cabbre sshconfig edit ~/.ssh/config
 cabbre cp !cp % 
 cabbre cpkara !cp % ~/.config/karabiner/karabiner.json
+cabbre cpahk !cp % ~/main.ahk
 cabbre cpk !cp % ~/.config/karabiner/karabiner.json
 cabbre cpgosnpt !cp % ~/.vim/plugged/myvim/snippets/UltiSnips/go.snippets
 cabbre cpsnpt !cp % ~/.vim/plugged/myvim/snippets/UltiSnips/go.snippets
 cabbre kara edit ~/github.com/xiote/karabiner/karabiner.json
+cabbre ahk edit ~/github.com/xiote/autohotkey/main.ahk
 cabbre okara edit ~/github.com/xiote/karabiner/karabiner.json
 cabbre del bdelete
 cabbre delb bdelete!
