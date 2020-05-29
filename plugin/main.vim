@@ -83,8 +83,6 @@ cabbre cp !cp %
 cabbre cpkara !cp % ~/.config/karabiner/karabiner.json
 cabbre cpahk !cp % ~/main.ahk
 cabbre cpk !cp % ~/.config/karabiner/karabiner.json
-cabbre cpgosnpt !cp % ~/.vim/plugged/myvim/snippets/UltiSnips/go.snippets
-cabbre cpsnpt !cp % ~/.vim/plugged/myvim/snippets/UltiSnips/go.snippets
 cabbre kara edit ~/github.com/xiote/karabiner/karabiner.json
 cabbre ahk edit ~/github.com/xiote/autohotkey/main.ahk
 cabbre okara edit ~/github.com/xiote/karabiner/karabiner.json
@@ -114,7 +112,8 @@ cabbre syntasticvim edit ~/github.com/xiote/myvim/plugin/syntastic.vim
 cabbre synvim edit ~/github.com/xiote/myvim/plugin/syntastic.vim
 cabbre myvim edit ~/github.com/xiote/myvim/plugin/
 cabbre linkmdvim edit ~/github.com/xiote/myvim/plugin/linkmd.vim
-cabbre gosnpt edit ~/github.com/xiote/myvim/snippets/UltiSnips/go.snippets
+cabbre alsnpt edit ~/.vim/plugged/myvim/snippets/UltiSnips/all.snippets
+cabbre gosnpt edit ~/.vim/plugged/myvim/snippets/UltiSnips/go.snippets
 cabbre pairvim edit ~/github.com/xiote/myvim/plugin/auto-pairs.vim
 
 command! -nargs=1 Silent
