@@ -70,13 +70,11 @@ set nowrapscan          " 검색시, 키워드가 더이상없는 경우, 맨앞
 
 
 cabbre ww wincmd w
-cabbre nd NERDTreeToggle
 
 cabbre qq q!
 
 cabbre re resolve
 
-cabbre nd NERDTreeToggle
 cabbre some source %
 cabbre sshconfig edit ~/.ssh/config
 cabbre cp !cp % 
