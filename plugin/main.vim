@@ -94,27 +94,27 @@ cabbre pr bp
 cabbre vimwk edit ~/github.com/xiote/wiki/vim/index.md
 cabbre zshrc edit ~/github.com/xiote/zsh/.zshrc
 
-cabbre swiftvim edit ~/github.com/xiote/myvim/ftplugin/swift.vim
-cabbre csvim edit ~/github.com/xiote/myvim/ftplugin/cs.vim
-cabbre govim edit ~/github.com/xiote/myvim/ftplugin/go.vim
+cabbre swiftvim edit ~/.vim/plugged/myvim/ftplugin/swift.vim
+cabbre csvim edit ~/.vim/plugged/myvim/ftplugin/cs.vim
+cabbre govim edit ~/.vim/plugged/myvim/ftplugin/go.vim
 
-cabbre pythonvim edit ~/github.com/xiote/myvim/plugin/python.vim
-cabbre ansiblevim edit ~/github.com/xiote/myvim/plugin/ansible.vim
-cabbre mainvim edit ~/github.com/xiote/myvim/plugin/main.vim
-cabbre mvim edit ~/github.com/xiote/myvim/plugin/main.vim
-cabbre mv edit ~/github.com/xiote/myvim/plugin/main.vim
-cabbre gitvim edit ~/github.com/xiote/myvim/plugin/git.vim
-cabbre gvim edit ~/github.com/xiote/myvim/plugin/git.vim
-cabbre gv edit ~/github.com/xiote/myvim/plugin/git.vim
-cabbre ultisnipsvim edit ~/github.com/xiote/myvim/plugin/ultisnips.vim
-cabbre snvim edit ~/github.com/xiote/myvim/plugin/ultisnips.vim
-cabbre syntasticvim edit ~/github.com/xiote/myvim/plugin/syntastic.vim
-cabbre synvim edit ~/github.com/xiote/myvim/plugin/syntastic.vim
-cabbre myvim edit ~/github.com/xiote/myvim/plugin/
-cabbre linkmdvim edit ~/github.com/xiote/myvim/plugin/linkmd.vim
+cabbre pythonvim edit ~/.vim/plugged/myvim/plugin/python.vim
+cabbre ansiblevim edit ~/.vim/plugged/myvim/plugin/ansible.vim
+cabbre mainvim edit ~/.vim/plugged/myvim/plugin/main.vim
+cabbre mvim edit ~/.vim/plugged/myvim/plugin/main.vim
+cabbre mv edit ~/.vim/plugged/myvim/plugin/main.vim
+cabbre gitvim edit ~/.vim/plugged/myvim/plugin/git.vim
+cabbre gvim edit ~/.vim/plugged/myvim/plugin/git.vim
+cabbre gv edit ~/.vim/plugged/myvim/plugin/git.vim
+cabbre ultisnipsvim edit ~/.vim/plugged/myvim/plugin/ultisnips.vim
+cabbre snvim edit ~/.vim/plugged/myvim/plugin/ultisnips.vim
+cabbre syntasticvim edit ~/.vim/plugged/myvim/plugin/syntastic.vim
+cabbre synvim edit ~/.vim/plugged/myvim/plugin/syntastic.vim
+cabbre myvim edit ~/.vim/plugged/myvim/plugin/
+cabbre linkmdvim edit ~/.vim/plugged/myvim/plugin/linkmd.vim
 cabbre alsnpt edit ~/.vim/plugged/myvim/snippets/UltiSnips/all.snippets
 cabbre gosnpt edit ~/.vim/plugged/myvim/snippets/UltiSnips/go.snippets
-cabbre pairvim edit ~/github.com/xiote/myvim/plugin/auto-pairs.vim
+cabbre pairvim edit ~/.vim/plugged/myvim/plugin/auto-pairs.vim
 
 command! -nargs=1 Silent
 \   execute 'silent !' . <q-args>
