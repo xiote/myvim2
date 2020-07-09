@@ -20,7 +20,7 @@ cabbre gitcommitall Git commit -a
 cabbre gitcommitme <BAR>Git reset<BAR>Git add %<BAR>Git commit -m %
 cabbre gcme <BAR>Git reset<BAR>Git add %<BAR>Git commit -m %
 "    cabbre gc <BAR>Git reset<BAR>!git add %<BAR>Git commit -m %
-    cabbre gc Git commit -m %
+    cabbre gc Git add %<BAR>Git commit -m %
 cabbre gitcommitamend GitCommitAmend 
 cabbre gca GitCommitAmend 
 
