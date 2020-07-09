@@ -10,6 +10,7 @@ cabbre gitstatus Git status
 cabbre gs Git status
 
 cabbre gitreset Git reset
+    cabbre gr Git reset
 
 cabbre gitadd Git add
     cabbre ga Git add %
