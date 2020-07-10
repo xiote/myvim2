@@ -78,10 +78,8 @@ cabbre re resolve
 cabbre some source %
 cabbre sshconfig edit ~/.ssh/config
 cabbre cp !cp % 
-cabbre cpkara !cp % ~/.config/karabiner/karabiner.json
 cabbre cpahk !cp % ~/main.ahk
-cabbre cpk !cp % ~/.config/karabiner/karabiner.json
-cabbre kara edit ~/github.com/xiote/karabiner/karabiner.json
+cabbre kara edit ~/dotfiles/dotfiles/karabiner.json
 cabbre ahk edit ~/github.com/xiote/autohotkey/main.ahk
 cabbre okara edit ~/github.com/xiote/karabiner/karabiner.json
 cabbre del bdelete
