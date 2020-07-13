@@ -27,6 +27,11 @@ inoremap <c-h>   <c-g>u<c-h>
 "inoremap <CR>   <c-g>u<CR>
 inoremap <TAB>   <c-g>u<TAB>
 
+map <C-a> <ESC>^
+imap <C-a> <ESC>I
+map <C-e> <ESC>$
+imap <C-e> <ESC>A
+
 nnoremap o o<Esc>
 nnoremap O O<Esc>
 
