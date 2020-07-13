@@ -140,7 +140,7 @@ endfunction
 
 
 "inoremap <CR>   <c-g>u<CR>
-inoremap <cr> :call Enter()<cr>i
+inoremap <cr> <c-o>:call Enter()<cr>i
 
 function! Enter()
 if strcharpart(getline('.')[col('.')-2:], 0, 2)=='><'
@@ -149,7 +149,3 @@ else
     execute 'normal!' "i\<CR>"
 endif
 endfunction
-
-
-
-
