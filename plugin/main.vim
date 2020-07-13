@@ -146,6 +146,6 @@ function! Enter()
 if strcharpart(getline('.')[col('.')-2:], 0, 2)=='><'
     execute 'normal!' "i\<CR>\<CR>\<C-o>k\<Tab>"
 else
-    execute 'normal!' "A\<CR>"
+    execute 'normal!' "a\<CR>"
 endif
 endfunction
