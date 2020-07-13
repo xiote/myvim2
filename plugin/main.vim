@@ -34,6 +34,19 @@ nnoremap O O<Esc>
 nmap ç :
 imap ç <C-o>ç
 
+                                            " option+h to left_arrow
+nmap ˙ h
+imap ˙ <left>
+                                            " option+l to right_arrow
+nmap ¬ l
+imap ¬ <right>
+                                            " option+j to down_arrow
+nmap ∆ j
+imap ∆ <down>
+                                            " option+k to up_arrow
+nmap ˚ k
+imap ˚ <up>
+
 "https://vim.fandom.com/wiki/Change_cursor_shape_in_different_modes
 "Mode Settings
 
