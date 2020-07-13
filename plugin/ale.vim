@@ -1,6 +1,6 @@
 let g:ale_fix_on_save = 1
 
-let g:ale_fixers.markdown = []
-
-".tidyrc
-let g:ale_fixers.html = ['tidy']
+let g:ale_fixers = {
+\   '*': ['remove_trailing_lines', 'trim_whitespace'],
+\   'html': ['tidy'],
+\}
