@@ -140,12 +140,12 @@ endfunction
 
 
 "inoremap <CR>   <c-g>u<CR>
-inoremap <cr> <c-o>:call Enter()<cr>
+inoremap <cr> <c-g>u<CR><c-o>:call Enter()<cr>
 
 function! Enter()
-if strcharpart(getline('.')[col('.')-2:], 0, 2)=='><'
-    execute 'normal!' "i\<CR>\<CR>\<C-o>k\<Tab>"
-else
-    <cr> 
+if strcharpart(getline('.')[col('.')-1:], 0, 1)=='<'
+    execute 'normal!' "i\<CR>\<C-o>k\<Tab>"
+els
+    echom strcharpart(getline('.')[col('.')-1:], 0, 1)
 endif
 endfunction
