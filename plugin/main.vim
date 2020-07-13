@@ -24,7 +24,7 @@ inoremap . <c-g>u.
 inoremap <bs>    <c-g>u<bs>
 inoremap <c-w>   <c-g>u<c-w>
 inoremap <c-h>   <c-g>u<c-h>
-inoremap <CR>   <c-g>u<CR>
+"inoremap <CR>   <c-g>u<CR>
 inoremap <TAB>   <c-g>u<TAB>
 
 nnoremap o o<Esc>
@@ -137,3 +137,19 @@ function! ClearScreen()
     silent !clear
     redraw!
 endfunction
+
+
+"inoremap <CR>   <c-g>u<CR>
+inoremap <cr> :call Enter()<cr>i
+
+function! Enter()
+if strcharpart(getline('.')[col('.')-2:], 0, 2)=='><'
+    execute 'normal!' "i\<CR>\<CR>\<C-o>k\<Tab>"
+else
+    execute 'normal!' "i\<CR>"
+endif
+endfunction
+
+
+
+
