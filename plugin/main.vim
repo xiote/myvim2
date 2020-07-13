@@ -144,8 +144,8 @@ inoremap <cr> <c-o>:call Enter()<cr>
 
 function! Enter()
 if strcharpart(getline('.')[col('.')-2:], 0, 2)=='><'
-    execute 'normal!' "i\<c-g>u\<CR>\<CR>\<C-o>k\<Tab>"
+    execute 'normal!' "i\<CR>\<CR>\<C-o>k\<Tab>"
 else
-    execute 'normal!' "i\<c-g>u\<cr>"
+    execute 'normal!' "A\<CR>"
 endif
 endfunction
