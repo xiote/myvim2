@@ -12,7 +12,6 @@ set backspace=indent,eol,start
 
 let mapleader="'"
                                             " 단축키
-nnoremap <c-l> :
 
 nnoremap <c-w> :bp<cr>
 nnoremap <c-e> :bn<cr>
@@ -32,8 +31,11 @@ nnoremap o o<Esc>
 nnoremap O O<Esc>
 
                                             " option+c to colon
-nmap ç :
-imap ç <C-o>ç
+nmap <c-l> :
+imap <c-l> <c-o><c-l>
+
+nmap ∑ :w<cr>
+imap ∑ <C-o>∑
 
 "https://vim.fandom.com/wiki/Change_cursor_shape_in_different_modes
 "Mode Settings
