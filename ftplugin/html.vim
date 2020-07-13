@@ -1,2 +1,1 @@
-let b:ale_linters = ['eslint']
-let b:ale_fixers = ['html-beautify']
+let b:ale_fixers = ['prettier']
