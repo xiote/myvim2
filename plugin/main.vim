@@ -31,11 +31,8 @@ nnoremap o o<Esc>
 nnoremap O O<Esc>
 
                                             " option+c to colon
-nmap <c-l> :
-imap <c-l> <c-o><c-l>
-
-nmap ∑ :w<cr>
-imap ∑ <C-o>∑
+nmap ç :
+imap ç <C-o>ç
 
 "https://vim.fandom.com/wiki/Change_cursor_shape_in_different_modes
 "Mode Settings
