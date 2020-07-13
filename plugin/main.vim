@@ -1,7 +1,5 @@
 syntax on
 
-set mps-=<:>
-
 set encoding=utf-8
 set nocompatible
 filetype plugin on
