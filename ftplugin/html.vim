@@ -1,3 +1,4 @@
+set mps+==:;
 setlocal mps-=<:>
 set cursorline
 
