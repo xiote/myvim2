@@ -35,22 +35,11 @@ imap <C-e> <ESC>A
 nnoremap o o<Esc>
 nnoremap O O<Esc>
 
-                                            " option+c to colon
-nmap ç :
-imap ç <C-o>ç
+                                            " control+b to colon
+nmap <C-b> :
+imap <C-b> <C-o>:
 
-                                            " option+h to left_arrow
-nmap ˙ h
-imap ˙ <left>
-                                            " option+l to right_arrow
-nmap ¬ l
-imap ¬ <right>
-                                            " option+j to down_arrow
-nmap ∆ j
-imap ∆ <down>
-                                            " option+k to up_arrow
-nmap ˚ k
-imap ˚ <up>
+
 
 "https://vim.fandom.com/wiki/Change_cursor_shape_in_different_modes
 "Mode Settings
