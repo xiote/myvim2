@@ -15,7 +15,8 @@ let mapleader="'"
 
 nnoremap <c-w> :bp<cr>
 nnoremap <c-e> :bn<cr>
-nnoremap <c-q> :bd!<cr>
+                                            " kill buffer anyway
+nnoremap <c-k> :bd!<cr>
 nnoremap <c-s> :w<cr>
 
                                             " break history
@@ -45,7 +46,8 @@ nnoremap O O<Esc>
                                             " control+b to colon
 nmap <C-S-b> :
 imap <C-b> <C-o>:
-
+                                            " delete rest of line
+imap <C-k> <c-o>d$
 
 
 "https://vim.fandom.com/wiki/Change_cursor_shape_in_different_modes
