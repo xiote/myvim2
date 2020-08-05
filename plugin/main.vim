@@ -43,11 +43,11 @@ imap <C-a> <c-o>I
 imap <C-e> <c-o>A
                                             " control+b to colon
 imap <C-b> <C-o>:
-
+                                            " close buffer anyway
 imap <C-q> <c-o>:bd!<cr>
-
+                                            " easymotion
 imap <C-s> <c-o><leader><leader>s
-
+                                            " delete to
 imap <C-g> <c-o>dt
 
 nmap <C-a> ^
