@@ -36,7 +36,7 @@ imap <C-p> <Up>
 imap <C-b> <Left>
 imap <C-f> <Right>
                                             " delete rest of line
-imap <C-k> <c-o>D
+"imap <C-k> <c-o>D
                                             " beginning of line
 imap <C-a> <c-o>I
                                             " end of line
