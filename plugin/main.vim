@@ -81,6 +81,8 @@ autocmd BufNewFile * :exe ': Silent mkdir -p ' . escape(fnamemodify(bufname('%')
 
                         " HTML 파일은 <>커서 selection 중지
 autocmd BufWinEnter *.html set mps-=<:>
+                        " 파일 열때 기본 insert 모드
+autocmd BufRead,BufNewFile * start
 
 set autochdir           " 열린 파일에 맞춰서 자동으로 경로 변경
 set autowrite
