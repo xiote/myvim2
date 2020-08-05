@@ -36,7 +36,7 @@ imap <C-p> <Up>
 imap <C-b> <Left>
 imap <C-f> <Right>
                                             " delete rest of line
-"imap <C-k> <c-o>D
+imap <C-k> <c-o>D
                                             " beginning of line
 imap <C-a> <c-o>I
                                             " end of line
@@ -50,10 +50,7 @@ imap <C-s> <c-o><leader><leader>s
                                             " delete to
 imap <C-g> <c-o>dt
 
-imap <C-f> <c-o><Plug>(incsearch-easymotion-stay)
-map z/ <Plug>(incsearch-easymotion-/)
-map z? <Plug>(incsearch-easymotion-?)
-map / <Plug>(incsearch-easymotion-stay)
+imap <C-f> /
 
 imap <C-j> <C-o><leader><leader>l
 
