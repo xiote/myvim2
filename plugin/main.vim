@@ -48,6 +48,8 @@ imap <C-q> <c-o>:bd!<cr>
 
 imap <C-s> <c-o><leader><leader>s
 
+imap <C-g> <c-o>dt
+
 nmap <C-a> ^
 nmap <C-e> $
 nmap <C-S-b> :
