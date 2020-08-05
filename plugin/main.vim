@@ -91,6 +91,8 @@ set softtabstop=4
 
 set nowrapscan          " 검색시, 키워드가 더이상없는 경우, 맨앞에서부터 검색되지 않도록
 
+cabbre enew enew!
+
 cabbre ww wincmd w
 
 cabbre re resolve
@@ -103,8 +105,6 @@ cabbre kara edit ~/dotfiles/dotfiles/karabiner.json
 cabbre cpkara !cp % ~/.config/karabiner/karabiner.json
 cabbre ahk edit ~/github.com/xiote/autohotkey/main.ahk
 cabbre okara edit ~/github.com/xiote/karabiner/karabiner.json
-cabbre del bdelete
-cabbre delb bdelete!
 cabbre ne bn
 cabbre pr bp
 
@@ -151,7 +151,3 @@ if strcharpart(getline('.')[col('.')-1:], 0, 1)=='<'
     execute 'normal!' "i\<cr>\<up>\<tab>\<left>"
 endif
 endfunction
-
-map / <Plug>(incsearch-easymotion-/)
-map ? <Plug>(incsearch-easymotion-?)
-map g/ <Plug>(incsearch-easymotion-stay)
