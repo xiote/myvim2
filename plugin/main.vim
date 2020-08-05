@@ -44,6 +44,8 @@ imap <C-e> <c-o>A
                                             " control+b to colon
 imap <C-b> <C-o>:
 
+imap <C-j> <nop>
+
 
 
 nmap <C-a> ^
