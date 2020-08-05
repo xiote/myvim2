@@ -48,7 +48,7 @@ imap <C-b> <C-o>:
 
 nmap <C-a> ^
 nmap <C-e> $
-"nmap <C-S-b> :
+nmap <C-S-b> :
 nmap o o<Esc>
 nmap O O<Esc>
 nmap <C-l> zz
