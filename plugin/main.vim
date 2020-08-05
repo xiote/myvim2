@@ -36,11 +36,11 @@ imap <C-p> <Up>
 imap <C-b> <Left>
 imap <C-f> <Right>
                                             " delete rest of line
-imap <C-k> <c-o>d$
+"imap <C-k> <c-o>d$
                                             " beginning of line
-imap <C-a> <c-o>i
+imap <C-a> <c-o>I
                                             " end of line
-imap <C-e> <c-o>a
+imap <C-e> <c-o>A
                                             " control+b to colon
 imap <C-b> <C-o>:
 
