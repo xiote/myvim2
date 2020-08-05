@@ -13,8 +13,6 @@ set backspace=indent,eol,start
 let mapleader="'"
                                             " 단축키
 
-nnoremap <c-w> :bp<cr>
-nnoremap <c-e> :bn<cr>
                                             " kill buffer anyway
 nnoremap <c-k> :bd!<cr>
 nnoremap <c-s> :w<cr>
@@ -28,26 +26,32 @@ inoremap <c-h>   <c-g>u<c-h>
 "inoremap <CR>   <c-g>u<CR>
 inoremap <TAB>   <c-g>u<TAB>
 
-imap <C-l> <C-o>
-imap <C-x> <C-o>
-imap <C-d> <C-o>x
+imap <C-l> <c-o>
+imap <C-x> <c-o>
+                                            " delete a char
+imap <C-d> <c-o>x
+                                            " arrow
 imap <C-n> <Down>
 imap <C-p> <Up>
 imap <C-b> <Left>
 imap <C-f> <Right>
-map <C-a> <ESC>^
-imap <C-a> <ESC>I
-map <C-e> <ESC>$
-imap <C-e> <ESC>A
-
-nnoremap o o<Esc>
-nnoremap O O<Esc>
-
-                                            " control+b to colon
-nmap <C-S-b> :
-imap <C-b> <C-o>:
                                             " delete rest of line
 imap <C-k> <c-o>d$
+                                            " beginning of line
+imap <C-a> <c-o>i
+                                            " end of line
+imap <C-e> <c-o>a
+                                            " control+b to colon
+imap <C-b> <C-o>:
+
+
+
+nmap <C-a> ^
+nmap <C-e> $
+"nmap <C-S-b> :
+nmap o o<Esc>
+nmap O O<Esc>
+
 
 
 "https://vim.fandom.com/wiki/Change_cursor_shape_in_different_modes
