@@ -44,11 +44,11 @@ imap <C-b> <C-o>:
 "https://vim.fandom.com/wiki/Change_cursor_shape_in_different_modes
 "Mode Settings
 
-if has('macunix')
-    let &t_SI.="\e[6 q" "SI = INSERT mode
-    let &t_SR.="\e[2 q" "SR = REPLACE mode
-    let &t_EI.="\e[2 q" "EI = NORMAL mode (ELSE)
-endif
+"if has('macunix')
+"    let &t_SI.="\e[6 q" "SI = INSERT mode
+"    let &t_SR.="\e[2 q" "SR = REPLACE mode
+"    let &t_EI.="\e[2 q" "EI = NORMAL mode (ELSE)
+"endif
 
 "Cursor settings:
 
@@ -78,7 +78,7 @@ set softtabstop=4
 
 set nowrapscan          " 검색시, 키워드가 더이상없는 경우, 맨앞에서부터 검색되지 않도록
 
-
+cabbre bdd bd!
 cabbre ww wincmd w
 
 cabbre qq q!
