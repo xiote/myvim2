@@ -45,15 +45,14 @@ imap <C-e> <c-o>A
 imap <C-b> <C-o>:
                                             " close buffer anyway
 imap <C-q> <c-o>:bd!<cr>
-                                            " easymotion
+                                            " easymotion char
 imap <C-s> <c-o><leader><leader>s
                                             " delete to
 imap <C-g> <c-o>dt
-
+                                            " search
 imap <C-f> /
-
+                                            " easymotion line
 imap <C-j> <C-o><leader><leader>l
-
 map <Leader><Leader>l <Plug>(easymotion-bd-jk)
 nmap <Leader><Leader>l <Plug>(easymotion-overwin-line)
 
