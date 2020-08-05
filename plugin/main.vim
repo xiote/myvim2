@@ -14,7 +14,7 @@ let mapleader="'"
                                             " 단축키
 
                                             " kill buffer anyway
-nnoremap <c-k> :bd!<cr>
+nnoremap <c-q> :bd!<cr>
 nnoremap <c-s> :w<cr>
 
                                             " break history
