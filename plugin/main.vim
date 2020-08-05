@@ -46,7 +46,7 @@ imap <C-b> <C-o>:
 
 imap <C-q> <c-o>:bd!<cr>
 
-
+imap <C-s> <c-o><leader><leader>s
 
 nmap <C-a> ^
 nmap <C-e> $
