@@ -50,6 +50,8 @@ imap <C-s> <c-o><leader><leader>s
                                             " delete to
 imap <C-g> <c-o>dt
 
+imap <C-f> <c-o>/
+
 nmap <C-a> ^
 nmap <C-e> $
 nmap <C-S-b> :
