@@ -52,6 +52,9 @@ imap <C-g> <c-o>dt
 
 imap <C-f> <c-o>/
 
+map <Leader><Leader>l <Plug>(easymotion-bd-jk)
+nmap <Leader><Leader>l <Plug>(easymotion-overwin-line)
+
 nmap <C-a> ^
 nmap <C-e> $
 nmap <C-S-b> :
