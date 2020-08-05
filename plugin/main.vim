@@ -44,7 +44,7 @@ nnoremap O O<Esc>
 
                                             " control+b to colon
 nmap <C-S-b> :
-imap <C-b> <C-o><C-b>
+imap <C-b> <C-o>:
 
 
 
@@ -85,10 +85,10 @@ set softtabstop=4
 
 set nowrapscan          " 검색시, 키워드가 더이상없는 경우, 맨앞에서부터 검색되지 않도록
 
-cabbre bdd bd!
-cabbre ww wincmd w
+command bd bd!
+command q q!
 
-cabbre qq q!
+cabbre ww wincmd w
 
 cabbre re resolve
 
