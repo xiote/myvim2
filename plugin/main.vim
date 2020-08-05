@@ -50,7 +50,10 @@ imap <C-s> <c-o><leader><leader>s
                                             " delete to
 imap <C-g> <c-o>dt
 
-imap <C-f> <esc>/i
+imap <C-f> <esc><Plug>(incsearch-easymotion-stay)i
+map z/ <Plug>(incsearch-easymotion-/)
+map z? <Plug>(incsearch-easymotion-?)
+map / <Plug>(incsearch-easymotion-stay)
 
 imap <C-j> <C-o><leader><leader>l
 
@@ -166,6 +169,3 @@ if strcharpart(getline('.')[col('.')-1:], 0, 1)=='<'
 endif
 endfunction
 
-map z/ <Plug>(incsearch-easymotion-/)
-map z? <Plug>(incsearch-easymotion-?)
-map / <Plug>(incsearch-easymotion-stay)
