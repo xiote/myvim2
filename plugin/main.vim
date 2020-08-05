@@ -91,6 +91,7 @@ set softtabstop=4
 
 set nowrapscan          " 검색시, 키워드가 더이상없는 경우, 맨앞에서부터 검색되지 않도록
 
+cabbre qq q!
 cabbre enew enew!
 
 cabbre ww wincmd w
