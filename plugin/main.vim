@@ -141,3 +141,7 @@ if strcharpart(getline('.')[col('.')-1:], 0, 1)=='<'
     execute 'normal!' "i\<cr>\<up>\<tab>\<left>"
 endif
 endfunction
+
+map z/ <Plug>(incsearch-easymotion-/)
+map z? <Plug>(incsearch-easymotion-?)
+map zg/ <Plug>(incsearch-easymotion-stay)
