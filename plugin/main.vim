@@ -50,7 +50,7 @@ imap <C-s> <c-o><leader><leader>s
                                             " delete to
 imap <C-g> <c-o>dt
 
-imap <C-f> <esc><Plug>(incsearch-easymotion-stay)i
+imap <C-f> <c-o><Plug>(incsearch-easymotion-stay)
 map z/ <Plug>(incsearch-easymotion-/)
 map z? <Plug>(incsearch-easymotion-?)
 map / <Plug>(incsearch-easymotion-stay)
