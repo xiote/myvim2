@@ -28,6 +28,7 @@ inoremap <c-h>   <c-g>u<c-h>
 inoremap <TAB>   <c-g>u<TAB>
 
 imap <C-l> <C-o>
+imap <C-d> <C-o>x
 map <C-a> <ESC>^
 imap <C-a> <ESC>I
 map <C-e> <ESC>$
