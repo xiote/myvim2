@@ -87,9 +87,6 @@ set softtabstop=4
 
 set nowrapscan          " 검색시, 키워드가 더이상없는 경우, 맨앞에서부터 검색되지 않도록
 
-command bd bd!
-command q q!
-
 cabbre ww wincmd w
 
 cabbre re resolve
