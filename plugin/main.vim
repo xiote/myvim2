@@ -44,7 +44,7 @@ nnoremap O O<Esc>
 
                                             " control+b to colon
 "nmap <C-S-b> :
-imap <C-b> <C-o>:
+imap <C-b> <C-o><C-b>
 
 
 
