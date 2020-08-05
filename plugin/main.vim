@@ -51,7 +51,7 @@ nmap <C-e> $
 "nmap <C-S-b> :
 nmap o o<Esc>
 nmap O O<Esc>
-
+nmap <C-l> zz
 
 
 "https://vim.fandom.com/wiki/Change_cursor_shape_in_different_modes
