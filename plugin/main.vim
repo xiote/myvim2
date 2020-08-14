@@ -14,7 +14,6 @@ let mapleader="'"
                                             " 단축키
 
                                             " kill buffer anyway
-nnoremap <c-q> :bd!<cr>
 nnoremap <c-s> :w<cr>
 
                                             " break history
@@ -54,8 +53,9 @@ imap <C-j> <C-o><leader><leader>l
                                             " undo
 imap <C-u> <C-o>u
 
-nmap Q :bd!<cr> 
-    
+
+cabbre eol execute "normal \<Plug>Neasymotion-overwin-line"
+
 map <Leader><Leader>l <Plug>(easymotion-bd-jk)
 nmap <Leader><Leader>l <Plug>(easymotion-overwin-line)
 
@@ -106,6 +106,7 @@ set softtabstop=4
 set nowrapscan          " 검색시, 키워드가 더이상없는 경우, 맨앞에서부터 검색되지 않도록
 
 cabbre qq q!
+cabbre bq bd!
 cabbre enew enew!
 
 cabbre ww wincmd w
