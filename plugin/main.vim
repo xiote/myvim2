@@ -13,7 +13,7 @@ set backspace=indent,eol,start
 let mapleader="'"
                                             " 단축키
 
-                                            " kill buffer anyway
+                                            " save
 nnoremap <c-s> :w<cr>
 
                                             " break history
@@ -48,16 +48,16 @@ imap <C-q> <c-o>:bd!<cr>
 imap <C-g> <c-o><leader><leader>s
                                             " search
 imap <C-f> /
-                                            " easymotion line
-imap <C-S-l> <C-o><leader><leader>l
                                             " undo
 imap <C-u> <C-o>u
-
-
-cabbre eol execute "normal \<Plug>easymotion-overwin-line"
+                                            " easymotion line
+map <C-l> <Plug>(easymotion-bd-jk)
+nmap <C-l> <Plug>(easymotion-overwin-line)
 
 map <Leader><Leader>l <Plug>(easymotion-bd-jk)
 nmap <Leader><Leader>l <Plug>(easymotion-overwin-line)
+
+nmap <C-x> zz
 
 nmap <C-a> ^
 nmap <C-e> $
