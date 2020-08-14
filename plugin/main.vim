@@ -54,6 +54,8 @@ imap <C-j> <C-o><leader><leader>l
                                             " undo
 imap <C-u> <C-o>u
 
+nmap Q :bd!<cr> 
+    
 map <Leader><Leader>l <Plug>(easymotion-bd-jk)
 nmap <Leader><Leader>l <Plug>(easymotion-overwin-line)
 
