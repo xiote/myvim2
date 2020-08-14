@@ -49,7 +49,7 @@ imap <C-g> <c-o><leader><leader>s
                                             " search
 imap <C-f> /
                                             " easymotion line
-imap <C-j> <C-o><leader><leader>l
+imap <C-S-l> <C-o><leader><leader>l
                                             " undo
 imap <C-u> <C-o>u
 
@@ -58,6 +58,9 @@ cabbre eol execute "normal \<Plug>easymotion-overwin-line"
 
 map <Leader><Leader>l <Plug>(easymotion-bd-jk)
 nmap <Leader><Leader>l <Plug>(easymotion-overwin-line)
+
+command! -range ExecuteEasyMotionOverwinLine call
+ExecuteWithShellProgram("easymotion-overwin-line")
 
 nmap <C-a> ^
 nmap <C-e> $
