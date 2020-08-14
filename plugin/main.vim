@@ -54,7 +54,7 @@ imap <C-j> <C-o><leader><leader>l
 imap <C-u> <C-o>u
 
 
-cabbre eol execute "normal \<Plug>Neasymotion-overwin-line"
+cabbre eol execute "normal \<Plug>easymotion-overwin-line"
 
 map <Leader><Leader>l <Plug>(easymotion-bd-jk)
 nmap <Leader><Leader>l <Plug>(easymotion-overwin-line)
