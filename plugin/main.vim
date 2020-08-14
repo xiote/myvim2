@@ -32,8 +32,6 @@ imap <C-d> <c-o>x
                                             " arrow
 imap <C-n> <Down>
 imap <C-p> <Up>
-imap <C-b> <Left>
-imap <C-f> <Right>
                                             " delete rest of line
 imap <C-k> <c-o>D
                                             " beginning of line
@@ -41,7 +39,7 @@ imap <C-a> <c-o>I
                                             " end of line
 imap <C-e> <c-o>A
                                             " control+b to colon
-imap <C-b> <C-o>:
+imap <C-!> <C-o>:
                                             " close buffer anyway
 imap <C-q> <c-o>:bd!<cr>
                                             " easymotion char
