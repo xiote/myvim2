@@ -46,13 +46,14 @@ imap <C-b> <C-o>:
                                             " close buffer anyway
 imap <C-q> <c-o>:bd!<cr>
                                             " easymotion char
-imap <C-s> <c-o><leader><leader>s
-                                            " delete to
-imap <C-g> <c-o>dt
+imap <C-g> <c-o><leader><leader>s
                                             " search
 imap <C-f> /
                                             " easymotion line
 imap <C-j> <C-o><leader><leader>l
+                                            " undo
+imap <C-u> <C-o>u
+
 map <Leader><Leader>l <Plug>(easymotion-bd-jk)
 nmap <Leader><Leader>l <Plug>(easymotion-overwin-line)
 
@@ -61,7 +62,6 @@ nmap <C-e> $
 nmap <C-S-b> :
 nmap o o<Esc>
 nmap O O<Esc>
-nmap <C-l> zz
 
 
 "https://vim.fandom.com/wiki/Change_cursor_shape_in_different_modes
