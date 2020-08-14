@@ -39,7 +39,7 @@ imap <C-a> <c-o>I
                                             " end of line
 imap <C-e> <c-o>A
                                             " control+b to colon
-imap <C-!> <C-o>:
+imap <C-i> <c-o>:
                                             " close buffer anyway
 imap <C-q> <c-o>:bd!<cr>
                                             " easymotion char
@@ -59,7 +59,7 @@ nmap <C-x> zz
 
 nmap <C-a> ^
 nmap <C-e> $
-nmap <C-S-b> :
+nmap <C-S-i> :
 nmap o o<Esc>
 nmap O O<Esc>
 
