@@ -25,8 +25,11 @@ inoremap <c-h>   <c-g>u<c-h>
 "inoremap <CR>   <c-g>u<CR>
 inoremap <TAB>   <c-g>u<TAB>
 
+
 imap <C-l> <c-o>
 imap <C-x> <c-o>
+                                            " Visual
+imap <C-v> <c-o>V
                                             " delete a char
 imap <C-d> <c-o>x
                                             " arrow
