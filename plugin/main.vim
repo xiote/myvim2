@@ -51,9 +51,8 @@ imap <C-g> <c-o><leader><leader>s
 imap <C-f> /
                                             " undo
 imap <C-u> <C-o>u
-                                            " easymotion line
-map <C-l> <Plug>(easymotion-bd-jk)
-nmap <C-l> <Plug>(easymotion-overwin-line)
+                                            " Visual Line 
+nmap <C-l> V
 
 map <Leader><Leader>l <Plug>(easymotion-bd-jk)
 nmap <Leader><Leader>l <Plug>(easymotion-overwin-line)
