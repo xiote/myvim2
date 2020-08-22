@@ -33,8 +33,8 @@ imap <C-v> <c-o>V
                                             " delete a char
 imap <C-d> <c-o>x
                                             " arrow
-imap <C-n> <Down>
-imap <C-p> <Up>
+"imap <C-n> <Down>
+"imap <C-p> <Up>
                                             " delete rest of line
 imap <C-k> <c-o>D
                                             " beginning of line
