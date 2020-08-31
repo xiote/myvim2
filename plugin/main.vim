@@ -41,8 +41,6 @@ imap <C-k> <c-o>D
 imap <C-a> <c-o>I
                                             " end of line
 imap <C-e> <c-o>A
-                                            " control+b to colon
-imap <C-i> <c-o>:
                                             " close buffer anyway
 imap <C-q> <c-o>:bd!<cr>
                                             " easymotion char
