@@ -36,7 +36,7 @@ nmap <C-a> ^
 imap <C-e> <c-o>A
 nmap <C-e> $
                                             " close buffer anyway
-imap <C-q> <c-o>:bd!<cr>
+" imap <C-q> <c-o>:bd!<cr>
                                             " easymotion char
 imap <C-g> <c-o><leader><leader>s
                                             " search
@@ -50,8 +50,8 @@ map <Leader><Leader>l <Plug>(easymotion-bd-jk)
 nmap <Leader><Leader>l <Plug>(easymotion-overwin-line)
 
 
-" imap <C-i> <Esc>:
-nmap <C-i> :
+imap <C-q> <Esc>:
+nmap <C-q> :
 nmap o o<Esc>
 nmap O O<Esc>
 
@@ -140,6 +140,7 @@ endfunction
 
 
 inoremap <tab> <c-r>=Smart_TabComplete()<CR>
+
 function! Smart_TabComplete()
   let line = getline('.')                         " current line
 
