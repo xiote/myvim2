@@ -139,7 +139,7 @@ endif
 endfunction
 
 
-inoremap <tab> <c-r>=Smart_TabComplete()<CR>
+" inoremap <tab> <c-r>=Smart_TabComplete()<CR>
 
 function! Smart_TabComplete()
   let line = getline('.')                         " current line
