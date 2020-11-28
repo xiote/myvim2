@@ -109,7 +109,7 @@ cabbre mv edit ~/.vim/plugged/myvim/plugin/main.vim
 cabbre gitvim edit ~/.vim/plugged/myvim/plugin/git.vim
 cabbre gvim edit ~/.vim/plugged/myvim/plugin/git.vim
 cabbre gv edit ~/.vim/plugged/myvim/plugin/git.vim
-cabbre ultisnipsvim edit ~/.vim/plugged/myvim/plugin/ultisnips.vim
+cabbre ulvim edit ~/.vim/plugged/myvim/plugin/ultisnips.vim
 cabbre snvim edit ~/.vim/plugged/myvim/plugin/ultisnips.vim
 cabbre syntasticvim edit ~/.vim/plugged/myvim/plugin/syntastic.vim
 cabbre synvim edit ~/.vim/plugged/myvim/plugin/syntastic.vim
