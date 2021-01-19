@@ -3,7 +3,6 @@ cabbre rn !swift run
 cabbre ut !swift test
 
 " let b:ale_fixers = ['prettier']
-let b:ale_fixers = ['']
-let b:ale_javascript_prettier_options = '--single-quote --trailing-comma all'
-let b:ale_fix_on_save = 0
+" let b:ale_javascript_prettier_options = '--single-quote --trailing-comma all'
+" let b:ale_fix_on_save = 0
 let b:auto_save = 1
