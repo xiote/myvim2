@@ -4,8 +4,8 @@ set encoding=utf-8
 set nocompatible
 filetype plugin on
                                             " 줄번호 표시
-set number
-set mouse=a
+" set number
+" set mouse=a
                                             " backspace 제약 제거
 set backspace=indent,eol,start
 
