@@ -85,7 +85,6 @@ cabbre re resolve
 
 cabbre some source %
 cabbre sshconfig edit ~/.ssh/config
-cabbre cp !cp % 
 cabbre cpahk !cp % ~/main.ahk
 cabbre kara edit ~/dotfiles/dotfiles/karabiner.json
 cabbre cpkara !cp % ~/.config/karabiner/karabiner.json
