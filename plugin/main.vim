@@ -75,7 +75,7 @@ set autowrite
 
 set nowrapscan          " 검색시, 키워드가 더이상없는 경우, 맨앞에서부터 검색되지 않도록
 
-cabbre cjx TCommentAs jsx
+cabbre gcc TCommentAs jsx
 
 cabbre qq q!
 cabbre bq bd!
